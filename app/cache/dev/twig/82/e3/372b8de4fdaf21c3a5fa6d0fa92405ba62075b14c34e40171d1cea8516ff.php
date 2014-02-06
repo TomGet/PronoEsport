@@ -53,8 +53,7 @@ class __TwigTemplate_82e3372b8de4fdaf21c3a5fa6d0fa92405ba62075b14c34e40171d1cea8
         $this->displayBlock('javascripts', $context, $blocks);
         // line 28
         echo "</body>
-</html>
-";
+</html>";
     }
 
     // line 7
@@ -106,6 +105,6 @@ class __TwigTemplate_82e3372b8de4fdaf21c3a5fa6d0fa92405ba62075b14c34e40171d1cea8
 
     public function getDebugInfo()
     {
-        return array (  92 => 26,  87 => 23,  84 => 22,  79 => 21,  73 => 11,  70 => 10,  67 => 9,  61 => 7,  55 => 28,  53 => 22,  51 => 21,  41 => 13,  39 => 9,  35 => 8,  31 => 7,  23 => 1,);
+        return array (  91 => 26,  86 => 23,  83 => 22,  78 => 21,  72 => 11,  69 => 10,  66 => 9,  60 => 7,  55 => 28,  53 => 22,  51 => 21,  41 => 13,  39 => 9,  35 => 8,  23 => 1,  38 => 6,  34 => 5,  31 => 7,  28 => 3,);
     }
 }
