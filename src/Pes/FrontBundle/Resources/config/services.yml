@@ -1,0 +1,7 @@
+parameters:
+#    pes_front.example.class: Pes\FrontBundle\Example
+
+services:
+#    pes_front.example:
+#        class: %pes_front.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
