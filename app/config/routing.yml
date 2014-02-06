@@ -1,0 +1,4 @@
+pes_front:
+    resource: "@PesFrontBundle/Resources/config/routing.yml"
+    prefix:   /
+
