@@ -138,6 +138,20 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
             return $this->mergeDefaults(array_replace($matches, array('_route' => 'pes_front_homepage')), array (  '_controller' => 'Pes\\FrontBundle\\Controller\\FrontController::indexAction',));
         }
 
+        // pes_front_acceuil
+        if (rtrim($pathinfo, '/') === '') {
+            if (substr($pathinfo, -1) !== '/') {
+                return $this->redirect($pathinfo.'/', 'pes_front_acceuil');
+            }
+
+            return array (  '_controller' => 'Pes\\FrontBundle\\Controller\\FrontController::accueilAction',  '_route' => 'pes_front_acceuil',);
+        }
+
+        // pes_front_voir_news
+        if (0 === strpos($pathinfo, '/news/voir') && preg_match('#^/news/voir/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'pes_front_voir_news')), array (  '_controller' => 'Pes\\FrontBundle\\Controller\\FrontController::voirNewsAction',));
+        }
+
         if (0 === strpos($pathinfo, '/log')) {
             if (0 === strpos($pathinfo, '/login')) {
                 // fos_user_security_login

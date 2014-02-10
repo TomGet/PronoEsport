@@ -11,6 +11,8 @@ class __TwigTemplate_e1f49f4b8854d5a6bb5224e10960831eb7584522f21bb94d413845f2de1
 
         $this->blocks = array(
             'body' => array($this, 'block_body'),
+            'aside' => array($this, 'block_aside'),
+            'section' => array($this, 'block_section'),
         );
     }
 
@@ -28,10 +30,45 @@ class __TwigTemplate_e1f49f4b8854d5a6bb5224e10960831eb7584522f21bb94d413845f2de1
     public function block_body($context, array $blocks = array())
     {
         // line 4
+        echo "    <div class=\"container-fluid\">
+        ";
+        // line 5
+        $this->env->loadTemplate("PesFrontBundle::navbar.html.twig")->display($context);
+        // line 6
         echo "
-<h1>Front</h1>
-
+        <div class=\"col-md-2\">
+            ";
+        // line 8
+        $this->displayBlock('aside', $context, $blocks);
+        // line 11
+        echo "        </div>
+        <div class=\"col-md-10\">
+            <div class=\"panel panel-default\">
+                <div class=\"panel-heading\">Acceuil</div>
+                <div class=\"panel-body\">
+                    ";
+        // line 16
+        $this->displayBlock('section', $context, $blocks);
+        // line 17
+        echo "                </div>
+            </div>
+        </div>
 ";
+    }
+
+    // line 8
+    public function block_aside($context, array $blocks = array())
+    {
+        // line 9
+        echo "                ";
+        echo $this->env->getExtension('http_kernel')->renderFragment($this->env->getExtension('http_kernel')->controller("PesFrontBundle:front:lastNews", array("nombre" => 3)));
+        echo "
+            ";
+    }
+
+    // line 16
+    public function block_section($context, array $blocks = array())
+    {
     }
 
     public function getTemplateName()
@@ -46,6 +83,6 @@ class __TwigTemplate_e1f49f4b8854d5a6bb5224e10960831eb7584522f21bb94d413845f2de1
 
     public function getDebugInfo()
     {
-        return array (  38 => 6,  34 => 5,  31 => 4,  28 => 3,);
+        return array (  70 => 16,  63 => 9,  60 => 8,  53 => 17,  51 => 16,  44 => 11,  42 => 8,  38 => 6,  36 => 5,  33 => 4,  30 => 3,);
     }
 }

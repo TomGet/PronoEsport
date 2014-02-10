@@ -1,7 +1,20 @@
 {% extends '::base.html.twig' %}
 
 {% block body %}
+    <div class="container-fluid">
+        {% include "PesFrontBundle::navbar.html.twig" %}
 
-<h1>Front</h1>
-
+        <div class="col-md-2">
+            {% block aside %}
+                {{ render(controller("PesFrontBundle:front:lastNews", {'nombre': 3})) }}
+            {% endblock %}
+        </div>
+        <div class="col-md-10">
+            <div class="panel panel-default">
+                <div class="panel-heading">Acceuil</div>
+                <div class="panel-body">
+                    {% block section %}{% endblock %}
+                </div>
+            </div>
+        </div>
 {% endblock %}

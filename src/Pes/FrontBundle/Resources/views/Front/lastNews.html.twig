@@ -1,0 +1,10 @@
+<div class="panel panel-default">
+    <div class="panel-heading">Dernières news</div>
+    <ul class="list-group">
+        {%  for news in lesNews %}
+            <li class="list-group-item">
+                <a href="{{ path('pes_front_voir_news', {'id': news.id}) }}">{{ news.titre }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>

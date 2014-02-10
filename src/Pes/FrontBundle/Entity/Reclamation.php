@@ -127,4 +127,27 @@ class Reclamation
     {
         return $this->date;
     }
+
+    /**
+     * Set membre
+     *
+     * @param \Pes\UserBundle\Entity\User $membre
+     * @return Reclamation
+     */
+    public function setMembre(\Pes\UserBundle\Entity\User $membre)
+    {
+        $this->membre = $membre;
+    
+        return $this;
+    }
+
+    /**
+     * Get membre
+     *
+     * @return \Pes\UserBundle\Entity\User 
+     */
+    public function getMembre()
+    {
+        return $this->membre;
+    }
 }

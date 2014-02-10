@@ -1,3 +1,11 @@
 pes_front_homepage:
     pattern:  /hello/{name}
     defaults: { _controller: PesFrontBundle:Front:index }
+
+pes_front_acceuil:
+    pattern:  /
+    defaults: { _controller: PesFrontBundle:Front:accueil }
+
+pes_front_voir_news:
+    pattern:  /news/voir/{id}
+    defaults: { _controller: PesFrontBundle:Front:voirNews }

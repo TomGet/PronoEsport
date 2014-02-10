@@ -20,7 +20,7 @@ class User extends BaseUser
 
 	/**
 	 * @ORM\ManyToOne(targetEntity="Pes\FrontBundle\Entity\Pays")
-	 * @ORM\JoinColumn(nullable=false)
+	 * @ORM\JoinColumn(nullable=true)
 	 */
 	private $pays;
 

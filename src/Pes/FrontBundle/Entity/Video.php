@@ -103,4 +103,50 @@ class Video
     {
         return $this->date;
     }
+
+    /**
+     * Set membre
+     *
+     * @param \Pes\UserBundle\Entity\User $membre
+     * @return Video
+     */
+    public function setMembre(\Pes\UserBundle\Entity\User $membre)
+    {
+        $this->membre = $membre;
+    
+        return $this;
+    }
+
+    /**
+     * Get membre
+     *
+     * @return \Pes\UserBundle\Entity\User 
+     */
+    public function getMembre()
+    {
+        return $this->membre;
+    }
+
+    /**
+     * Set typeVideo
+     *
+     * @param \Pes\FrontBundle\Entity\TypeVideo $typeVideo
+     * @return Video
+     */
+    public function setTypeVideo(\Pes\FrontBundle\Entity\TypeVideo $typeVideo)
+    {
+        $this->typeVideo = $typeVideo;
+    
+        return $this;
+    }
+
+    /**
+     * Get typeVideo
+     *
+     * @return \Pes\FrontBundle\Entity\TypeVideo 
+     */
+    public function getTypeVideo()
+    {
+        return $this->typeVideo;
+    }
 }

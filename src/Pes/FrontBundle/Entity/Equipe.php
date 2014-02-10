@@ -96,4 +96,44 @@ class Equipe
     {
         return $this->tag;
     }
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->competitions = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+    
+    /**
+     * Add competitions
+     *
+     * @param \Pes\FrontBundle\Entity\Competition $competitions
+     * @return Equipe
+     */
+    public function addCompetition(\Pes\FrontBundle\Entity\Competition $competitions)
+    {
+        $this->competitions[] = $competitions;
+    
+        return $this;
+    }
+
+    /**
+     * Remove competitions
+     *
+     * @param \Pes\FrontBundle\Entity\Competition $competitions
+     */
+    public function removeCompetition(\Pes\FrontBundle\Entity\Competition $competitions)
+    {
+        $this->competitions->removeElement($competitions);
+    }
+
+    /**
+     * Get competitions
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getCompetitions()
+    {
+        return $this->competitions;
+    }
 }

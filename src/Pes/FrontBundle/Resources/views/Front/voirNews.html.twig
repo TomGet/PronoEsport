@@ -1,0 +1,9 @@
+{% extends 'PesFrontBundle::layout.html.twig' %}
+
+{% block section %}
+
+    <h2>{{ news.titre }}</h2>
+    <p class="text-justify">{{ news.contenu }}</p>
+    <p>Par <a href="#">{{ news.membre.username }}</a> le {{ news.date|date("F jS \\a\\t g:i") }}</p>
+
+{% endblock %}

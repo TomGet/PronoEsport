@@ -127,4 +127,27 @@ class CommentaireNews
     {
         return $this->date;
     }
+
+    /**
+     * Set news
+     *
+     * @param \Pes\FrontBundle\Entity\News $news
+     * @return CommentaireNews
+     */
+    public function setNews(\Pes\FrontBundle\Entity\News $news)
+    {
+        $this->news = $news;
+    
+        return $this;
+    }
+
+    /**
+     * Get news
+     *
+     * @return \Pes\FrontBundle\Entity\News 
+     */
+    public function getNews()
+    {
+        return $this->news;
+    }
 }

@@ -163,4 +163,50 @@ class Competition
     {
         return $this->resultat;
     }
+
+    /**
+     * Set typeCompetition
+     *
+     * @param \Pes\FrontBundle\Entity\TypeCompetition $typeCompetition
+     * @return Competition
+     */
+    public function setTypeCompetition(\Pes\FrontBundle\Entity\TypeCompetition $typeCompetition)
+    {
+        $this->typeCompetition = $typeCompetition;
+    
+        return $this;
+    }
+
+    /**
+     * Get typeCompetition
+     *
+     * @return \Pes\FrontBundle\Entity\TypeCompetition 
+     */
+    public function getTypeCompetition()
+    {
+        return $this->typeCompetition;
+    }
+
+    /**
+     * Set tournoi
+     *
+     * @param \Pes\FrontBundle\Entity\Tournoi $tournoi
+     * @return Competition
+     */
+    public function setTournoi(\Pes\FrontBundle\Entity\Tournoi $tournoi)
+    {
+        $this->tournoi = $tournoi;
+    
+        return $this;
+    }
+
+    /**
+     * Get tournoi
+     *
+     * @return \Pes\FrontBundle\Entity\Tournoi 
+     */
+    public function getTournoi()
+    {
+        return $this->tournoi;
+    }
 }

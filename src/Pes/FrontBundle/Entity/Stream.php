@@ -97,4 +97,27 @@ class Stream
     {
         return $this->url;
     }
+
+    /**
+     * Set hebergeurStream
+     *
+     * @param \Pes\FrontBundle\Entity\HebergeurStream $hebergeurStream
+     * @return Stream
+     */
+    public function setHebergeurStream(\Pes\FrontBundle\Entity\HebergeurStream $hebergeurStream)
+    {
+        $this->hebergeurStream = $hebergeurStream;
+    
+        return $this;
+    }
+
+    /**
+     * Get hebergeurStream
+     *
+     * @return \Pes\FrontBundle\Entity\HebergeurStream 
+     */
+    public function getHebergeurStream()
+    {
+        return $this->hebergeurStream;
+    }
 }

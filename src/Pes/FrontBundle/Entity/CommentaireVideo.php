@@ -126,4 +126,27 @@ class CommentaireVideo
     {
         return $this->date;
     }
+
+    /**
+     * Set video
+     *
+     * @param \Pes\FrontBundle\Entity\Video $video
+     * @return CommentaireVideo
+     */
+    public function setVideo(\Pes\FrontBundle\Entity\Video $video)
+    {
+        $this->video = $video;
+    
+        return $this;
+    }
+
+    /**
+     * Get video
+     *
+     * @return \Pes\FrontBundle\Entity\Video 
+     */
+    public function getVideo()
+    {
+        return $this->video;
+    }
 }
