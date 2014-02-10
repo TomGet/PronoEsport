@@ -56,3 +56,5 @@ ecd181,127.0.0.1,GET,http://localhost/pronoEsports/web/app_dev.php/_fragment?_pa
 2d112f,127.0.0.1,GET,http://localhost/pronoEsports/web/app_dev.php/_fragment?_path=_format%3Dhtml%26_locale%3Dfr%26_controller%3DPesFrontBundle%253Afront%253AlastNews,1392034238,16c2a6
 fd2545,::1,GET,http://localhost/pronoEsports/web/app_dev.php/,1392062676,
 3fa293,127.0.0.1,GET,http://localhost/pronoEsports/web/app_dev.php/_fragment?_path=_format%3Dhtml%26_locale%3Dfr%26_controller%3DPesFrontBundle%253Afront%253AlastNews,1392062676,fd2545
+7d77a6,::1,GET,http://localhost/pronoEsports/web/app_dev.php/,1392064649,
+015f58,127.0.0.1,GET,http://localhost/pronoEsports/web/app_dev.php/_fragment?_path=_format%3Dhtml%26_locale%3Dfr%26_controller%3DPesFrontBundle%253Afront%253AlastNews,1392064649,7d77a6
