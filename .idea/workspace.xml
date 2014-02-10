@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6f63a47-275a-41bf-a4e4-995060d4a93b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/cache/dev/profiler/58/5f/015f58" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/cache/dev/profiler/a6/77/7d77a6" />
-      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\vendor\doctrine\cache\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\vendor\doctrine\collections\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\vendor\doctrine\data-fixtures\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\vendor\friendsofsymfony\user-bundle\FOS\UserBundle\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\vendor\incenteev\composer-parameter-handler\Incenteev\ParameterHandler\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\vendor\jdorn\sql-formatter\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\vendor\swiftmailer\swiftmailer\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\vendor\twig\twig\.gitignore" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle/Doctrine/Bundle/FixturesBundle" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle/Doctrine/Bundle/FixturesBundle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/logs/dev.log" afterPath="$PROJECT_DIR$/app/logs/dev.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/sessions/sess_4pm3ns7g79jp7tgn46qh86ptd5" afterPath="$PROJECT_DIR$/app/cache/dev/sessions/sess_4pm3ns7g79jp7tgn46qh86ptd5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pronoEsports.iws" />
     <ignored path=".idea/workspace.xml" />
