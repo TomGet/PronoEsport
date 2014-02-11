@@ -2,6 +2,7 @@
 
 namespace Pes\FrontBundle\Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -27,12 +28,6 @@ class TypeCompetition
      * @ORM\Column(name="libelle", type="string", length=64)
      */
     private $libelle;
-
-		/**
-	 * @ORM\ManyToOne(targetEntity="Pes\FrontBundle\Entity\Jeu")
-	 * @ORM\JoinColumn(nullable=false)
-	 */
-	private $jeu;
 	
     /**
      * Get id
@@ -89,4 +84,9 @@ class TypeCompetition
     {
         return $this->jeu;
     }
+
+	public function __toString()
+	{
+		return $this->getLibelle();
+	}
 }

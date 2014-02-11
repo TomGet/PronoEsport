@@ -60,7 +60,7 @@ class __TwigTemplate_043c22c54192ec2089fb6b09847ce9443b3f59e3926d25a081c736b8650
                     <td>";
             // line 19
             if ($this->getAttribute((isset($context["courrier"]) ? $context["courrier"] : $this->getContext($context, "courrier")), "date")) {
-                echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute((isset($context["courrier"]) ? $context["courrier"] : $this->getContext($context, "courrier")), "date"), "Y/m/d H:i:s"), "html", null, true);
+                echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute((isset($context["courrier"]) ? $context["courrier"] : $this->getContext($context, "courrier")), "date"), "Y/m/d \\ H:i:s"), "html", null, true);
             }
             echo "</td>
                     <td>

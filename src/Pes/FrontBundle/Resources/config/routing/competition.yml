@@ -1,0 +1,30 @@
+competition:
+    pattern:  /
+    defaults: { _controller: "PesFrontBundle:Competition:index" }
+
+competition_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "PesFrontBundle:Competition:show" }
+
+competition_new:
+    pattern:  /new
+    defaults: { _controller: "PesFrontBundle:Competition:new" }
+
+competition_create:
+    pattern:  /create
+    defaults: { _controller: "PesFrontBundle:Competition:create" }
+    requirements: { _method: post }
+
+competition_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "PesFrontBundle:Competition:edit" }
+
+competition_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "PesFrontBundle:Competition:update" }
+    requirements: { _method: post|put }
+
+competition_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "PesFrontBundle:Competition:delete" }
+    requirements: { _method: post|delete }

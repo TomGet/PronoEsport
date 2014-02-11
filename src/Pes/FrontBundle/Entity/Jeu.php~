@@ -34,7 +34,17 @@ class Jeu
      * @ORM\Column(name="icone", type="string", length=255)
      */
     private $icone;
-	
+
+	/**
+	 * @ORM\ManyToMany(targetEntity="Pes\FrontBundle\Entity\TypeCompetition", cascade={"persist"})
+	 */
+	private $typesCompetition;
+
+	public function __construct()
+	{
+		$this->typesCompetition = new ArrayCollection();
+	}
+
     /**
      * Get id
      *
@@ -112,5 +122,38 @@ class Jeu
     public function getTypeCompetition()
     {
         return $this->TypeCompetition;
+    }
+
+    /**
+     * Add typesCompetition
+     *
+     * @param \Sdz\BlogBundle\Entity\TypeCompetition $typesCompetition
+     * @return Jeu
+     */
+    public function addTypesCompetition(\Sdz\BlogBundle\Entity\TypeCompetition $typesCompetition)
+    {
+        $this->typesCompetition[] = $typesCompetition;
+    
+        return $this;
+    }
+
+    /**
+     * Remove typesCompetition
+     *
+     * @param \Sdz\BlogBundle\Entity\TypeCompetition $typesCompetition
+     */
+    public function removeTypesCompetition(\Sdz\BlogBundle\Entity\TypeCompetition $typesCompetition)
+    {
+        $this->typesCompetition->removeElement($typesCompetition);
+    }
+
+    /**
+     * Get typesCompetition
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getTypesCompetition()
+    {
+        return $this->typesCompetition;
     }
 }

@@ -75,10 +75,16 @@ class TypeCompetition extends \Pes\FrontBundle\Entity\TypeCompetition implements
         return parent::getJeu();
     }
 
+    public function __toString()
+    {
+        $this->__load();
+        return parent::__toString();
+    }
+
 
     public function __sleep()
     {
-        return array('__isInitialized__', 'id', 'libelle', 'jeu');
+        return array('__isInitialized__', 'id', 'libelle');
     }
 
     public function __clone()

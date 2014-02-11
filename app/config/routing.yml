@@ -6,10 +6,6 @@ pes_front:
     resource: "@PesFrontBundle/Resources/config/routing.yml"
     prefix:   /
 
-pes_courrier:
-    resource: "@PesFrontBundle/Resources/config/routing/courrier.yml"
-    prefix:   /courrier
-
 fos_user_security:
     resource: "@FOSUserBundle/Resources/config/routing/security.xml"
 

@@ -1,0 +1,30 @@
+tournoi:
+    pattern:  /
+    defaults: { _controller: "PesFrontBundle:Tournoi:index" }
+
+tournoi_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "PesFrontBundle:Tournoi:show" }
+
+tournoi_new:
+    pattern:  /new
+    defaults: { _controller: "PesFrontBundle:Tournoi:new" }
+
+tournoi_create:
+    pattern:  /create
+    defaults: { _controller: "PesFrontBundle:Tournoi:create" }
+    requirements: { _method: post }
+
+tournoi_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "PesFrontBundle:Tournoi:edit" }
+
+tournoi_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "PesFrontBundle:Tournoi:update" }
+    requirements: { _method: post|put }
+
+tournoi_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "PesFrontBundle:Tournoi:delete" }
+    requirements: { _method: post|delete }

@@ -1,23 +1,37 @@
-pes_front_homepage:
-    pattern:  /hello/{name}
-    defaults: { _controller: PesFrontBundle:Front:index }
-
+# Pages publiques
 pes_front_acceuil:
     pattern:  /
     defaults: { _controller: PesFrontBundle:Front:accueil }
 
+# News
 pes_front_voir_news:
     pattern:  /news/voir/{id}
     defaults: { _controller: PesFrontBundle:Front:voirNews }
-    
+
+# Competitions
 pes_front_voir_competition:
     pattern:  /competition/voir/{id}
     defaults: { _controller: PesFrontBundle:Front:voirCompetition }
-    
+
 pes_front_liste_competitions:
     pattern:  /competition/liste
     defaults: { _controller: PesFrontBundle:Front:listeCompetitions }
-    
+
+# Courrier
+pes_courrier:
+    resource: "@PesFrontBundle/Resources/config/routing/courrier.yml"
+    prefix:   /courrier
+
 pes_courrier_new:
     pattern:  /contact
     defaults: { _controller: "PesFrontBundle:Courrier:new" }
+
+# Tournoi
+pes_tournoi:
+    resource: "@PesFrontBundle/Resources/config/routing/tournoi.yml"
+    prefix:   /tournoi
+
+# Competition
+pes_competition:
+    resource: "@PesFrontBundle/Resources/config/routing/competition.yml"
+    prefix:   /competition

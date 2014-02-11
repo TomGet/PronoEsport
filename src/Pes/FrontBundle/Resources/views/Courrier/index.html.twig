@@ -16,7 +16,7 @@
                     <td>{{ courrier.nom }}</td>
                     <td>{{ courrier.email }}</td>
                     <td>{{ courrier.sujet }}</td>
-                    <td>{% if courrier.date %}{{ courrier.date|date('Y/m/d H:i:s') }}{% endif %}</td>
+                    <td>{% if courrier.date %}{{ courrier.date|date('Y/m/d \\\a H:i:s') }}{% endif %}</td>
                     <td>
                         <div class="btn-group">
                             <a class="btn btn-info" href="{{ path('pes_courrier_show', { 'id': courrier.id }) }}">
