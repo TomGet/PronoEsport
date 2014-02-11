@@ -36,8 +36,30 @@ class __TwigTemplate_0cd6c18b846cb66f0dcceb001cac4cdd702f3bcb6badc6c662b2f844645
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">
             <ul class=\"nav navbar-nav\">
-                <li class=\"active\"><a href=\"#\">Link</a></li>
-                <li><a href=\"#\">Link</a></li>
+                <li ";
+        // line 18
+        if (($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "request"), "attributes"), "get", array(0 => "_route"), "method") == "pes_front_acceuil")) {
+            echo "class=\"active\"";
+        }
+        echo "><a href=\"";
+        echo $this->env->getExtension('routing')->getPath("pes_front_acceuil");
+        echo "\">Acceuil</a></li>
+                <li ";
+        // line 19
+        if (($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "request"), "attributes"), "get", array(0 => "_route"), "method") == "pes_front_liste_competitions")) {
+            echo "class=\"active\"";
+        }
+        echo "><a href=\"";
+        echo $this->env->getExtension('routing')->getPath("pes_front_liste_competitions");
+        echo "\">Liste des matchs</a></li>
+                <li ";
+        // line 20
+        if (($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "request"), "attributes"), "get", array(0 => "_route"), "method") == "pes_courrier_new")) {
+            echo "class=\"active\"";
+        }
+        echo "><a href=\"";
+        echo $this->env->getExtension('routing')->getPath("pes_courrier_new");
+        echo "\">Contact</a></li>
                 <li class=\"dropdown\">
                     <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">Dropdown <b class=\"caret\"></b></a>
                     <ul class=\"dropdown-menu\">
@@ -87,6 +109,6 @@ class __TwigTemplate_0cd6c18b846cb66f0dcceb001cac4cdd702f3bcb6badc6c662b2f844645
 
     public function getDebugInfo()
     {
-        return array (  32 => 12,  19 => 1,);
+        return array (  57 => 20,  49 => 19,  41 => 18,  32 => 12,  19 => 1,);
     }
 }

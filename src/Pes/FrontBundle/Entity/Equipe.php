@@ -34,6 +34,13 @@ class Equipe
      * @ORM\Column(name="tag", type="string", length=16)
      */
     private $tag;
+	
+	/**
+     * @var string
+     *
+     * @ORM\Column(name="blason", type="string", length=64, nullable=true)
+     */
+    private $blason;
 
 	/**
 	 * @ORM\ManyToMany(targetEntity="Pes\FrontBundle\Entity\Competition", cascade={"persist"})
@@ -135,5 +142,28 @@ class Equipe
     public function getCompetitions()
     {
         return $this->competitions;
+    }
+
+    /**
+     * Set blason
+     *
+     * @param string $blason
+     * @return Equipe
+     */
+    public function setBlason($blason)
+    {
+        $this->blason = $blason;
+    
+        return $this;
+    }
+
+    /**
+     * Get blason
+     *
+     * @return string 
+     */
+    public function getBlason()
+    {
+        return $this->blason;
     }
 }

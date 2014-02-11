@@ -152,6 +152,78 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
             return $this->mergeDefaults(array_replace($matches, array('_route' => 'pes_front_voir_news')), array (  '_controller' => 'Pes\\FrontBundle\\Controller\\FrontController::voirNewsAction',));
         }
 
+        if (0 === strpos($pathinfo, '/co')) {
+            if (0 === strpos($pathinfo, '/competition')) {
+                // pes_front_voir_competition
+                if (0 === strpos($pathinfo, '/competition/voir') && preg_match('#^/competition/voir/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'pes_front_voir_competition')), array (  '_controller' => 'Pes\\FrontBundle\\Controller\\FrontController::voirCompetitionAction',));
+                }
+
+                // pes_front_liste_competitions
+                if ($pathinfo === '/competition/liste') {
+                    return array (  '_controller' => 'Pes\\FrontBundle\\Controller\\FrontController::listeCompetitionsAction',  '_route' => 'pes_front_liste_competitions',);
+                }
+
+            }
+
+            // pes_courrier_new
+            if ($pathinfo === '/contact') {
+                return array (  '_controller' => 'Pes\\FrontBundle\\Controller\\CourrierController::newAction',  '_route' => 'pes_courrier_new',);
+            }
+
+            if (0 === strpos($pathinfo, '/courrier')) {
+                // pes_courrier_list
+                if ($pathinfo === '/courrier/liste') {
+                    return array (  '_controller' => 'Pes\\FrontBundle\\Controller\\CourrierController::indexAction',  '_route' => 'pes_courrier_list',);
+                }
+
+                // pes_courrier_show
+                if (preg_match('#^/courrier/(?P<id>[^/]++)/show$#s', $pathinfo, $matches)) {
+                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'pes_courrier_show')), array (  '_controller' => 'Pes\\FrontBundle\\Controller\\CourrierController::showAction',));
+                }
+
+                // pes_courrier_create
+                if ($pathinfo === '/courrier/create') {
+                    if ($this->context->getMethod() != 'POST') {
+                        $allow[] = 'POST';
+                        goto not_pes_courrier_create;
+                    }
+
+                    return array (  '_controller' => 'Pes\\FrontBundle\\Controller\\CourrierController::createAction',  '_route' => 'pes_courrier_create',);
+                }
+                not_pes_courrier_create:
+
+                // pes_courrier_edit
+                if (preg_match('#^/courrier/(?P<id>[^/]++)/edit$#s', $pathinfo, $matches)) {
+                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'pes_courrier_edit')), array (  '_controller' => 'Pes\\FrontBundle\\Controller\\CourrierController::editAction',));
+                }
+
+                // pes_courrier_update
+                if (preg_match('#^/courrier/(?P<id>[^/]++)/update$#s', $pathinfo, $matches)) {
+                    if (!in_array($this->context->getMethod(), array('POST', 'PUT'))) {
+                        $allow = array_merge($allow, array('POST', 'PUT'));
+                        goto not_pes_courrier_update;
+                    }
+
+                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'pes_courrier_update')), array (  '_controller' => 'Pes\\FrontBundle\\Controller\\CourrierController::updateAction',));
+                }
+                not_pes_courrier_update:
+
+                // pes_courrier_delete
+                if (preg_match('#^/courrier/(?P<id>[^/]++)/delete$#s', $pathinfo, $matches)) {
+                    if (!in_array($this->context->getMethod(), array('POST', 'DELETE'))) {
+                        $allow = array_merge($allow, array('POST', 'DELETE'));
+                        goto not_pes_courrier_delete;
+                    }
+
+                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'pes_courrier_delete')), array (  '_controller' => 'Pes\\FrontBundle\\Controller\\CourrierController::deleteAction',));
+                }
+                not_pes_courrier_delete:
+
+            }
+
+        }
+
         if (0 === strpos($pathinfo, '/log')) {
             if (0 === strpos($pathinfo, '/login')) {
                 // fos_user_security_login

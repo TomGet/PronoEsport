@@ -45,7 +45,7 @@ class Competition
     /**
      * @var string
      *
-     * @ORM\Column(name="resultat", type="string", length=255)
+     * @ORM\Column(name="resultat", type="string", length=255, nullable=true)
      */
     private $resultat;
 
@@ -57,7 +57,7 @@ class Competition
 
 	/**
 	 * @ORM\ManyToOne(targetEntity="Pes\FrontBundle\Entity\Tournoi")
-	 * @ORM\JoinColumn(nullable=false)
+	 * @ORM\JoinColumn(nullable=true)
 	 */
 	private $tournoi;
 

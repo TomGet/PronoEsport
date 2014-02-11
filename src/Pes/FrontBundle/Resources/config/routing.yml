@@ -9,3 +9,15 @@ pes_front_acceuil:
 pes_front_voir_news:
     pattern:  /news/voir/{id}
     defaults: { _controller: PesFrontBundle:Front:voirNews }
+    
+pes_front_voir_competition:
+    pattern:  /competition/voir/{id}
+    defaults: { _controller: PesFrontBundle:Front:voirCompetition }
+    
+pes_front_liste_competitions:
+    pattern:  /competition/liste
+    defaults: { _controller: PesFrontBundle:Front:listeCompetitions }
+    
+pes_courrier_new:
+    pattern:  /contact
+    defaults: { _controller: "PesFrontBundle:Courrier:new" }

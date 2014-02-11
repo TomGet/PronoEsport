@@ -28,13 +28,12 @@ class TypeCompetition
      */
     private $libelle;
 
-	/**
+		/**
 	 * @ORM\ManyToOne(targetEntity="Pes\FrontBundle\Entity\Jeu")
 	 * @ORM\JoinColumn(nullable=false)
 	 */
 	private $jeu;
-
-
+	
     /**
      * Get id
      *
@@ -66,5 +65,28 @@ class TypeCompetition
     public function getLibelle()
     {
         return $this->libelle;
+    }
+
+    /**
+     * Set jeu
+     *
+     * @param \Pes\FrontBundle\Entity\Jeu $jeu
+     * @return TypeCompetition
+     */
+    public function setJeu(\Pes\FrontBundle\Entity\Jeu $jeu)
+    {
+        $this->jeu = $jeu;
+    
+        return $this;
+    }
+
+    /**
+     * Get jeu
+     *
+     * @return \Pes\FrontBundle\Entity\Jeu 
+     */
+    public function getJeu()
+    {
+        return $this->jeu;
     }
 }

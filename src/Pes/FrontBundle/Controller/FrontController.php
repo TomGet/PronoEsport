@@ -2,7 +2,7 @@
 
 namespace Pes\FrontBundle\Controller;
 
-use Pes\FrontBundle\Entity\Pays;
+use Pes\FrontBundle\Entity\Courrier;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class FrontController extends Controller
@@ -19,15 +19,15 @@ class FrontController extends Controller
 		$em->persist($pays);
 		$em->flush();
 		*/
-        return $this->render('PesFrontBundle:Front:index.html.twig', array('name' => $name));
-    }
+		return $this->render('PesFrontBundle:Front:index.html.twig', array('name' => $name));
+	}
 
 	public function accueilAction()
 	{
 		return $this->render('PesFrontBundle:Front:accueil.html.twig');
 	}
 
-	public function lastNewsAction($nombre	)
+	public function lastNewsAction($nombre)
 	{
 		$repository = $this->getDoctrine()
 			->getManager()
@@ -43,5 +43,32 @@ class FrontController extends Controller
 			->getRepository('PesFrontBundle:News');
 		$news = $repository->find($id);
 		return $this->render('PesFrontBundle:Front:voirNews.html.twig', array('news' => $news));
+	}
+
+	public function voirCompetitionAction($id)
+	{
+		$repository = $this->getDoctrine()
+			->getManager()
+			->getRepository('PesFrontBundle:Competition');
+		$competition = $repository->find($id);
+		return $this->render('PesFrontBundle:Front:voirCompetition.html.twig', array('competition' => $competition));
+	}
+
+	public function PlannedCompetitionsAction($nombre)
+	{
+		$repository = $this->getDoctrine()
+			->getManager()
+			->getRepository('PesFrontBundle:Competition');
+		$competitions = $repository->plannedCompetitions();
+		return $this->render('PesFrontBundle:Front:plannedCompetitions.html.twig', array('competitions' => $competitions));
+	}
+
+	public function listeCompetitionsAction()
+	{
+		$repository = $this->getDoctrine()
+			->getManager()
+			->getRepository('PesFrontBundle:Competition');
+		$competitions = $repository->findAll();
+		return $this->render('PesFrontBundle:Front:listeCompetitions.html.twig', array('competitions' => $competitions));
 	}
 }

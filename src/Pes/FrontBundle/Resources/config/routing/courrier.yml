@@ -1,0 +1,26 @@
+pes_courrier_list:
+    pattern:  /liste
+    defaults: { _controller: "PesFrontBundle:Courrier:index" }
+
+pes_courrier_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "PesFrontBundle:Courrier:show" }
+
+pes_courrier_create:
+    pattern:  /create
+    defaults: { _controller: "PesFrontBundle:Courrier:create" }
+    requirements: { _method: post }
+
+pes_courrier_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "PesFrontBundle:Courrier:edit" }
+
+pes_courrier_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "PesFrontBundle:Courrier:update" }
+    requirements: { _method: post|put }
+
+pes_courrier_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "PesFrontBundle:Courrier:delete" }
+    requirements: { _method: post|delete }

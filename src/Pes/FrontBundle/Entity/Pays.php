@@ -10,55 +10,82 @@ use Doctrine\ORM\Mapping as ORM;
  * @ORM\Table()
  * @ORM\Entity(repositoryClass="Pes\FrontBundle\Entity\PaysRepository")
  */
-class Pays
-{
-    /**
-     * @var integer
-     *
-     * @ORM\Column(name="id", type="integer")
-     * @ORM\Id
-     * @ORM\GeneratedValue(strategy="AUTO")
-     */
-    private $id;
+class Pays {
+
+	/**
+	 * @var integer
+	 *
+	 * @ORM\Column(name="id", type="integer")
+	 * @ORM\Id
+	 * @ORM\GeneratedValue(strategy="AUTO")
+	 */
+	private $id;
+
+	/**
+	 * @var string
+	 *
+	 * @ORM\Column(name="nom", type="string", length=64)
+	 */
+	private $nom;
+
+	/**
+	 * @var string
+	 *
+	 * @ORM\Column(name="drapeau", type="string", length=64)
+	 */
+	private $drapeau;
+
+	/**
+	 * Get id
+	 *
+	 * @return integer 
+	 */
+	public function getId() {
+		return $this->id;
+	}
+
+	/**
+	 * Set nom
+	 *
+	 * @param string $nom
+	 * @return Pays
+	 */
+	public function setNom($nom) {
+		$this->nom = $nom;
+
+		return $this;
+	}
+
+	/**
+	 * Get nom
+	 *
+	 * @return string 
+	 */
+	public function getNom() {
+		return $this->nom;
+	}
+
 
     /**
-     * @var string
+     * Set drapeau
      *
-     * @ORM\Column(name="nom", type="string", length=64)
-     */
-    private $nom;
-
-
-    /**
-     * Get id
-     *
-     * @return integer 
-     */
-    public function getId()
-    {
-        return $this->id;
-    }
-
-    /**
-     * Set nom
-     *
-     * @param string $nom
+     * @param string $drapeau
      * @return Pays
      */
-    public function setNom($nom)
+    public function setDrapeau($drapeau)
     {
-        $this->nom = $nom;
+        $this->drapeau = $drapeau;
     
         return $this;
     }
 
     /**
-     * Get nom
+     * Get drapeau
      *
      * @return string 
      */
-    public function getNom()
+    public function getDrapeau()
     {
-        return $this->nom;
+        return $this->drapeau;
     }
 }

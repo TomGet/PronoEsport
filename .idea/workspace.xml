@@ -2,7 +2,198 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6f63a47-275a-41bf-a4e4-995060d4a93b" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\1638bcf99b6a601f71123796b33a30eed1d9ba97$date.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\1638bcf99b6a601f71123796b33a30eed1d9ba97$id.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\1638bcf99b6a601f71123796b33a30eed1d9ba97$membre.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\1638bcf99b6a601f71123796b33a30eed1d9ba97$titre.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\1638bcf99b6a601f71123796b33a30eed1d9ba97$typeVideo.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\1638bcf99b6a601f71123796b33a30eed1d9ba97.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\1c218dfaeb3aed66df2ae807fa32771e1a3351e5.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\25f4a17ca2acb079dddd4ee765e844ca167d50c0.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\2b8024d65a40bc3857b2afa91cae1fb392ade85a$contenu.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\2b8024d65a40bc3857b2afa91cae1fb392ade85a$date.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\2b8024d65a40bc3857b2afa91cae1fb392ade85a$id.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\2b8024d65a40bc3857b2afa91cae1fb392ade85a$news.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\2b8024d65a40bc3857b2afa91cae1fb392ade85a$titre.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\2b8024d65a40bc3857b2afa91cae1fb392ade85a.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\2bca70c3fedf987ddb68e1717dbbe9735d3f75ca.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\34cc6a2d20fce7cc9101a5c0d4f9e69a701d7beb.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\456be0aa0052934b822d67066cf06e84a3643ccd$hebergeurStream.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\456be0aa0052934b822d67066cf06e84a3643ccd$id.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\456be0aa0052934b822d67066cf06e84a3643ccd$nom.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\456be0aa0052934b822d67066cf06e84a3643ccd$url.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\456be0aa0052934b822d67066cf06e84a3643ccd.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\46ede5939d4ae8ef7789b1f63b0b3e989629d742.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\4b966ec59b094b451a7efca7ce636031601f428c$contenu.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\4b966ec59b094b451a7efca7ce636031601f428c$date.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\4b966ec59b094b451a7efca7ce636031601f428c$id.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\4b966ec59b094b451a7efca7ce636031601f428c$titre.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\4b966ec59b094b451a7efca7ce636031601f428c$video.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\4b966ec59b094b451a7efca7ce636031601f428c.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\60e1c39b292748f9fcaa4551f030f11727177bab.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\624a9bc120327a0d68b3283f6977e6bebbeef485.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\658f3a30698011867d2070f3c31b074c9502205b.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\659fe6daef59ba78d7f531456e25a28ca2702dce$competitions.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\659fe6daef59ba78d7f531456e25a28ca2702dce$id.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\659fe6daef59ba78d7f531456e25a28ca2702dce$nom.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\659fe6daef59ba78d7f531456e25a28ca2702dce$tag.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\659fe6daef59ba78d7f531456e25a28ca2702dce.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\6b105228f34dcaf8f5d9f9937aec6a793f12d6c2.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\6dea9617d11e014439efd5b2b3af9263aa4bdf68.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\743543696f4be5aa9449a6508d70d4648ab03ab9#accueilAction.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\743543696f4be5aa9449a6508d70d4648ab03ab9#voirNewsAction.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\75b1d6e24ed4e88aea99337e993268c37ead3902.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\7a8ac4a49dcc5f32cad38d0bb3cd07797b968f0c.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\80832c3c76d39d28e7d57c3caf59753554c6a1d6$competitions.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\80832c3c76d39d28e7d57c3caf59753554c6a1d6$equipe.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\80832c3c76d39d28e7d57c3caf59753554c6a1d6$id.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\80832c3c76d39d28e7d57c3caf59753554c6a1d6$jeux.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\80832c3c76d39d28e7d57c3caf59753554c6a1d6$pays.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\80832c3c76d39d28e7d57c3caf59753554c6a1d6$pseudo.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\80832c3c76d39d28e7d57c3caf59753554c6a1d6.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\85e2e6f48428326872484b4abe83c3714436fa8b.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\8fed3809386d91b252ae58263a697ba042daf84d.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\a540c8c02ebe6db34e4ade763d34ed16cb6480a8.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\a6d57aafddb98c320072622c36f034fda211c657.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\ec09e6895210779054ed133b3ab5ab5994a2b0cc$id.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\ec09e6895210779054ed133b3ab5ab5994a2b0cc$libelle.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\ec09e6895210779054ed133b3ab5ab5994a2b0cc.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\ed7298fecf39860e5c0f73c379a887211a4d517c$id.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\ed7298fecf39860e5c0f73c379a887211a4d517c$nom.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\ed7298fecf39860e5c0f73c379a887211a4d517c$site.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\ed7298fecf39860e5c0f73c379a887211a4d517c.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\f6b27f3a45812c2137077cd81e812371514cc67c$contenu.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\f6b27f3a45812c2137077cd81e812371514cc67c$date.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\f6b27f3a45812c2137077cd81e812371514cc67c$id.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\f6b27f3a45812c2137077cd81e812371514cc67c$membre.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\f6b27f3a45812c2137077cd81e812371514cc67c$titre.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\annotations\f6b27f3a45812c2137077cd81e812371514cc67c.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\01\d3\38d301" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\06\0b\210b06" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\26\61\416126" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\26\96\3b9626" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\28\00\a60028" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\2a\67\77672a" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\2f\11\2d112f" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\32\70\cb7032" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\35\c9\89c935" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\37\28\852837" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\3f\42\92423f" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\40\61\fa6140" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\42\8d\348d42" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\45\25\fd2545" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\4b\93\1a934b" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\4b\c7\92c74b" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\58\5f\015f58" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\5b\96\fe965b" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\65\18\a51865" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\68\4d\394d68" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\69\ae\32ae69" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\6a\58\ae586a" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\6e\84\85846e" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\6f\5d\915d6f" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\6f\6e\396e6f" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\73\ea\feea73" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\74\22\192274" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\75\3b\e93b75" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\81\d1\ecd181" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\83\81\7a8183" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\86\2e\5e2e86" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\88\02\b00288" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\8a\49\b8498a" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\8b\95\cd958b" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\93\a2\3fa293" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\9c\11\ff119c" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\9d\3a\383a9d" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\9f\1c\8e1c9f" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\a4\d6\54d6a4" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\a6\77\7d77a6" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\a6\c2\16c2a6" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\a6\c2\22c2a6" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\ab\73\6b73ab" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\b0\67\0b67b0" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\b4\cd\1dcdb4" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\b6\7c\767cb6" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\b7\e0\6be0b7" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\ba\5e\4c5eba" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\c9\6f\366fc9" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\cc\73\cf73cc" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\d5\a8\8fa8d5" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\db\6e\4a6edb" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\dc\cc\50ccdc" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\de\46\6946de" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\de\cb\19cbde" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\df\dc\58dcdf" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\e5\98\5398e5" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\ed\1a\bb1aed" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\f8\fb\1afbf8" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\profiler\fa\dc\9fdcfa" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\pronoEsports\app\cache\dev\sessions\sess_4pm3ns7g79jp7tgn46qh86ptd5" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle/Doctrine/Bundle/FixturesBundle" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle/Doctrine/Bundle/FixturesBundle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/7c/d2/12746ad42dad58c928a2d0a506abf1c034381664041df932c955b43cf1cc.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/7c/d2/12746ad42dad58c928a2d0a506abf1c034381664041df932c955b43cf1cc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/9a/b3/24890e519acbb380662e0ec37f93c6b3c517376543ec0d6edff580debf00.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/9a/b3/24890e519acbb380662e0ec37f93c6b3c517376543ec0d6edff580debf00.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/3663655da274ec1235aceaa5b5bf4241254cf4c0$resultat.cache.php" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/3663655da274ec1235aceaa5b5bf4241254cf4c0$resultat.cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/3663655da274ec1235aceaa5b5bf4241254cf4c0$tournoi.cache.php" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/3663655da274ec1235aceaa5b5bf4241254cf4c0$tournoi.cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/82/e3/372b8de4fdaf21c3a5fa6d0fa92405ba62075b14c34e40171d1cea8516ff.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/82/e3/372b8de4fdaf21c3a5fa6d0fa92405ba62075b14c34e40171d1cea8516ff.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/cc/7b/3ab72b8fc69f0bc3e8a87b0a8acf2bbebe4d29f83a917e98c2288631d3b4.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/cc/7b/3ab72b8fc69f0bc3e8a87b0a8acf2bbebe4d29f83a917e98c2288631d3b4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/dd/a3/411cd82f8bdfbdbf86e004515a0590ea9d3740dc4c340cad552529ef3572.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/dd/a3/411cd82f8bdfbdbf86e004515a0590ea9d3740dc4c340cad552529ef3572.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/02/7e/42fbf03ec68bf8cb8759ed8c4dc1e76c364ab8f99eaffc95614e4b4b6fb8.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/02/7e/42fbf03ec68bf8cb8759ed8c4dc1e76c364ab8f99eaffc95614e4b4b6fb8.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/e1/f4/9f4b8854d5a6bb5224e10960831eb7584522f21bb94d413845f2de1ec646.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/e1/f4/9f4b8854d5a6bb5224e10960831eb7584522f21bb94d413845f2de1ec646.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/CommentaireNews.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/CommentaireNews.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/CommentaireNewsRepository.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/CommentaireNewsRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/CommentaireVideo.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/CommentaireVideo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/CommentaireVideoRepository.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/CommentaireVideoRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/Competition.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/Competition.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/CompetitionRepository.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/CompetitionRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/DependencyInjection/Configuration.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/DependencyInjection/Configuration.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Tests/Controller/DefaultControllerTest.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Tests/Controller/DefaultControllerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/Equipe.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/Equipe.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/EquipeRepository.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/EquipeRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Controller/FrontController.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Controller/FrontController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/HebergeurStream.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/HebergeurStream.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/HebergeurStreamRepository.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/HebergeurStreamRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/Jeu.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/Jeu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/JeuRepository.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/JeuRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/Joueur.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/Joueur.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/JoueurRepository.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/JoueurRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/News.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/News.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/NewsRepository.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/NewsRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/Pays.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/Pays.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/PaysRepository.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/PaysRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/PesFrontBundle.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/PesFrontBundle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/DependencyInjection/PesFrontExtension.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/DependencyInjection/PesFrontExtension.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/Reclamation.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/Reclamation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/ReclamationRepository.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/ReclamationRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/Stream.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/Stream.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/StreamRepository.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/StreamRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/Tournoi.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/Tournoi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/TournoiRepository.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/TournoiRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/TypeCompetition.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/TypeCompetition.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/TypeCompetitionRepository.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/TypeCompetitionRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/TypeVideo.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/TypeVideo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/TypeVideoRepository.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/TypeVideoRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/Video.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/Video.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/VideoRepository.php" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/VideoRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/02/5b/ab66cb29f6a18167840d0d67712f5438ff59bffcd269c4509ce9bd86058a.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/02/5b/ab66cb29f6a18167840d0d67712f5438ff59bffcd269c4509ce9bd86058a.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/Front/accueil.html.twig" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/Front/accueil.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.xml" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevUrlGenerator.php.meta" afterPath="$PROJECT_DIR$/app/cache/dev/appDevUrlGenerator.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevUrlGenerator.php" afterPath="$PROJECT_DIR$/app/cache/dev/appDevUrlGenerator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevUrlMatcher.php.meta" afterPath="$PROJECT_DIR$/app/cache/dev/appDevUrlMatcher.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevUrlMatcher.php" afterPath="$PROJECT_DIR$/app/cache/dev/appDevUrlMatcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/0c/d6/c18b846cb66f0dcceb001cac4cdd702f3bcb6badc6c662b2f844645daa67.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/0c/d6/c18b846cb66f0dcceb001cac4cdd702f3bcb6badc6c662b2f844645daa67.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/dc/df/d63982287f5f46e0fe2ae35503cfb211a7708203cebe4c81aa757f989f20.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/dc/df/d63982287f5f46e0fe2ae35503cfb211a7708203cebe4c81aa757f989f20.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/logs/dev.log" afterPath="$PROJECT_DIR$/app/logs/dev.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/Front/index.html.twig" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/Front/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/layout.html.twig" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/layout.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Resources/translations/messages.fr.xlf" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Resources/translations/messages.fr.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/navbar.html.twig" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/navbar.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Resources/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pes/FrontBundle/Resources/config/services.yml" afterPath="$PROJECT_DIR$/src/Pes/FrontBundle/Resources/config/services.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pronoEsports.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +216,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="voirNews.html.twig" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/Front/voirNews.html.twig">
+      <file leaf-file-name="CourrierType.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Form/CourrierType.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="14" selection-start="268" selection-end="268" vertical-scroll-proportion="0.20178041" vertical-offset="0" max-vertical-offset="674">
-              <folding />
+            <state line="10" column="4" selection-start="241" selection-end="241" vertical-scroll-proportion="-1.2307693" vertical-offset="138" max-vertical-offset="833">
+              <folding>
+                <element signature="e#40#80#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -37,70 +230,68 @@
       <file leaf-file-name="layout.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/layout.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="82" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="425">
+            <state line="21" column="10" selection-start="634" selection-end="634" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="476">
+              <folding>
+                <marker date="1392128810492" expanded="true" signature="83:633" placeholder="..." />
+                <marker date="1392128810492" expanded="true" signature="172:337" placeholder="..." />
+                <marker date="1392128810492" expanded="true" signature="365:411" placeholder="..." />
+                <marker date="1392128810492" expanded="true" signature="445:622" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CourrierController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Controller/CourrierController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="37" selection-start="748" selection-end="748" vertical-scroll-proportion="-13.076923" vertical-offset="187" max-vertical-offset="3978">
+              <folding>
+                <element signature="e#46#91#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/Courrier/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="42" selection-start="1071" selection-end="1071" vertical-scroll-proportion="0.59594095" vertical-offset="102" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lastNews.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/Front/lastNews.html.twig">
+      <file leaf-file-name="new.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/Courrier/new.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="6" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
+            <state line="0" column="0" selection-start="0" selection-end="189" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="544">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DFNews.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/DataFixtures/ORM/DFNews.php">
+      <file leaf-file-name="courrier.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Resources/config/routing/courrier.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="59" selection-start="1878" selection-end="1878" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="1275">
+            <state line="6" column="61" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navbar.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/navbar.html.twig">
+      <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="48" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
+            <state line="10" column="23" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Resources/config/routing.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="25" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="595">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="2" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="204">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewsRepository.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Entity/NewsRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="12" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="476">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="accueil.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/Front/accueil.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="16" selection-start="0" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="204">
+            <state line="22" column="60" selection-start="697" selection-end="697" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
               <folding />
             </state>
           </provider>
@@ -131,7 +322,6 @@
         <option value="$PROJECT_DIR$/src/Pes/UserBundle/Resources/config/services.yml" />
         <option value="$PROJECT_DIR$/app/config/security.yml" />
         <option value="$PROJECT_DIR$/src/Pes/UserBundle/Resources/config/security.yml" />
-        <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/Equipe.php" />
         <option value="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/Joueur.php" />
         <option value="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/Reclamation.php" />
@@ -144,17 +334,25 @@
         <option value="$PROJECT_DIR$/src/Pes/UserBundle/DataFixtures/ORM/DFNews.php" />
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/Front/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/Front/accueil.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/web/css/style.css" />
-        <option value="$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/navbar.html.twig" />
-        <option value="$PROJECT_DIR$/src/Pes/FrontBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/Front/lastNews.html.twig" />
-        <option value="$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/layout.html.twig" />
-        <option value="$PROJECT_DIR$/src/Pes/FrontBundle/Controller/FrontController.php" />
         <option value="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/NewsRepository.php" />
         <option value="$PROJECT_DIR$/src/Pes/FrontBundle/DataFixtures/ORM/DFNews.php" />
+        <option value="$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/Front/accueil.html.twig" />
+        <option value="$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/Front/contact.html.twig" />
+        <option value="$PROJECT_DIR$/src/Pes/FrontBundle/Controller/FrontController.php" />
         <option value="$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/Front/voirNews.html.twig" />
+        <option value="$PROJECT_DIR$/src/Pes/FrontBundle/Form/CourrierType.php" />
+        <option value="$PROJECT_DIR$/src/Pes/FrontBundle/Entity/Courrier.php" />
+        <option value="$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/layout.html.twig" />
+        <option value="$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/Courrier/new.html.twig" />
+        <option value="$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/navbar.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/Pes/FrontBundle/Resources/config/routing/courrier.yml" />
+        <option value="$PROJECT_DIR$/src/Pes/FrontBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/Pes/FrontBundle/Controller/CourrierController.php" />
+        <option value="$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/Courrier/index.html.twig" />
       </list>
     </option>
   </component>
@@ -162,8 +360,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="876" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -191,7 +389,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -210,8 +407,249 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pronoEsports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pronoEsports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pronoEsports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pronoEsports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pronoEsports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pronoEsports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrontBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pronoEsports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pronoEsports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrontBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pronoEsports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pronoEsports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrontBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Courrier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pronoEsports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pronoEsports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrontBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pronoEsports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pronoEsports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrontBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pronoEsports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pronoEsports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrontBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pronoEsports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pronoEsports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pronoEsports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pronoEsports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,29 +693,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19742489" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20015106" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -296,9 +734,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -318,51 +756,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Entity/Competition.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="29" selection-start="862" selection-end="1007" vertical-scroll-proportion="0.0" vertical-offset="935" max-vertical-offset="2924" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Entity/TypeCompetition.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="4" selection-start="522" selection-end="643" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1292" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Entity/Stream.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="41" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1802" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Entity/Equipe.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="4" selection-start="605" selection-end="728" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1785" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Controller/FrontController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="50" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="323" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/Front/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="10" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="221" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="50" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="595" />
@@ -438,11 +831,6 @@
         <state line="13" column="23" selection-start="299" selection-end="299" vertical-scroll-proportion="0.30651873" vertical-offset="0" max-vertical-offset="721" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="9" selection-start="86" selection-end="86" vertical-scroll-proportion="0.07073509" vertical-offset="0" max-vertical-offset="721" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Entity/Joueur.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="18" selection-start="624" selection-end="747" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="1581" />
@@ -463,19 +851,9 @@
         <state line="24" column="7" selection-start="467" selection-end="467" vertical-scroll-proportion="0.7246892" vertical-offset="0" max-vertical-offset="563" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/console">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="44" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="561" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pes/UserBundle/Entity/User.php">
@@ -493,25 +871,9 @@
         <state line="151" column="5" selection-start="2387" selection-end="2387" vertical-scroll-proportion="-17.076923" vertical-offset="2123" max-vertical-offset="2686" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pes/UserBundle/DataFixtures/ORM/DFNews.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="17" selection-start="730" selection-end="730" vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="612">
-          <folding>
-            <element signature="e#51#100#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="20" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/Front/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="30" selection-start="101" selection-end="101" vertical-scroll-proportion="0.12546125" vertical-offset="0" max-vertical-offset="542">
-          <folding />
-        </state>
+        <state line="4" column="30" selection-start="101" selection-end="101" vertical-scroll-proportion="0.12546125" vertical-offset="0" max-vertical-offset="542" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
@@ -524,41 +886,6 @@
     <entry file="file://$PROJECT_DIR$/web/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="2" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/navbar.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="48" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="24" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/Front/accueil.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="16" selection-start="0" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="204">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="82" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Controller/FrontController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="44" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="901">
           <folding />
         </state>
       </provider>
@@ -586,26 +913,164 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="35" selection-start="676" selection-end="676" vertical-scroll-proportion="0.41543028" vertical-offset="9" max-vertical-offset="782">
-          <folding>
-            <element signature="e#7#47#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="17" column="35" selection-start="676" selection-end="676" vertical-scroll-proportion="0.41543028" vertical-offset="9" max-vertical-offset="782" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle/Doctrine/Bundle/FixturesBundle/composer.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.45333335" vertical-offset="306" max-vertical-offset="18717">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.45333335" vertical-offset="306" max-vertical-offset="18717" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/Front/voirNews.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="14" selection-start="268" selection-end="268" vertical-scroll-proportion="0.20178041" vertical-offset="0" max-vertical-offset="674">
+        <state line="8" column="14" selection-start="268" selection-end="268" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/Front/accueil.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="64" selection-start="230" selection-end="230" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/Front/contact.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="45" selection-start="0" selection-end="1217" vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Controller/FrontController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="5" selection-start="2172" selection-end="2172" vertical-scroll-proportion="-18.576923" vertical-offset="724" max-vertical-offset="1343">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Entity/CourrierRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="568">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Entity/Courrier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="62" selection-start="944" selection-end="944" vertical-scroll-proportion="-35.307693" vertical-offset="0" max-vertical-offset="3281">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="24" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pes/UserBundle/DataFixtures/ORM/DFNews.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="17" selection-start="730" selection-end="730" vertical-scroll-proportion="0.797048" vertical-offset="44" max-vertical-offset="612">
+          <folding>
+            <element signature="e#51#100#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Form/CourrierType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="4" selection-start="241" selection-end="241" vertical-scroll-proportion="-1.2307693" vertical-offset="138" max-vertical-offset="833">
+          <folding>
+            <element signature="e#40#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="10" selection-start="634" selection-end="634" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="476">
+          <folding>
+            <marker date="1392128810492" expanded="true" signature="83:633" placeholder="..." />
+            <marker date="1392128810492" expanded="true" signature="172:337" placeholder="..." />
+            <marker date="1392128810492" expanded="true" signature="365:411" placeholder="..." />
+            <marker date="1392128810492" expanded="true" signature="445:622" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="46" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="4" selection-start="117" selection-end="117" vertical-scroll-proportion="-0.4964789" vertical-offset="384" max-vertical-offset="1309">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/navbar.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="147" selection-start="1411" selection-end="1411" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="23" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Resources/config/routing/courrier.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="61" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="60" selection-start="697" selection-end="697" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/Courrier/new.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="189" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Controller/CourrierController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="37" selection-start="748" selection-end="748" vertical-scroll-proportion="-13.076923" vertical-offset="187" max-vertical-offset="3978">
+          <folding>
+            <element signature="e#46#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pes/FrontBundle/Resources/views/Courrier/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="42" selection-start="1071" selection-end="1071" vertical-scroll-proportion="0.59594095" vertical-offset="102" max-vertical-offset="697">
           <folding />
         </state>
       </provider>

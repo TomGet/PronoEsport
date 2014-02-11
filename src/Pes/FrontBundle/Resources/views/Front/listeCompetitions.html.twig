@@ -1,0 +1,17 @@
+{% extends 'PesFrontBundle::layout.html.twig' %}
+
+{% block section %}
+<div class="panel panel-default">
+	<div class="panel-heading">Liste des matchs</div>
+	<div class="panel-body">
+		<ul class="list-group">
+        {%  for competition in competitions %}
+            <li class="list-group-item">
+                <a href="{{ path('pes_front_voir_competition', {'id': competition.id}) }}">{{ competition.nom }}</a>
+            </li>
+        {% endfor %}
+		</ul>
+	</div>
+</div>
+
+{% endblock %}

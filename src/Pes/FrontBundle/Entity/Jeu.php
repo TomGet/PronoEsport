@@ -34,8 +34,7 @@ class Jeu
      * @ORM\Column(name="icone", type="string", length=255)
      */
     private $icone;
-
-
+	
     /**
      * Get id
      *
@@ -90,5 +89,28 @@ class Jeu
     public function getIcone()
     {
         return $this->icone;
+    }
+
+    /**
+     * Set TypeCompetition
+     *
+     * @param \Pes\FrontBundle\Entity\TypeCompetition $typeCompetition
+     * @return Jeu
+     */
+    public function setTypeCompetition(\Pes\FrontBundle\Entity\TypeCompetition $typeCompetition)
+    {
+        $this->TypeCompetition = $typeCompetition;
+    
+        return $this;
+    }
+
+    /**
+     * Get TypeCompetition
+     *
+     * @return \Pes\FrontBundle\Entity\TypeCompetition 
+     */
+    public function getTypeCompetition()
+    {
+        return $this->TypeCompetition;
     }
 }

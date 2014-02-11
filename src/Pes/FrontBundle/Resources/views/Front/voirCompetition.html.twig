@@ -1,0 +1,10 @@
+{% extends 'PesFrontBundle::layout.html.twig' %}
+
+{% block section %}
+
+    <h2>{{ competition.nom }}</h2>
+    <p class="text-justify">{{ competition.typeCompetition.libelle }}</p>
+    <p>le {{ competition.date|date("F jS \\a\\t g:i", "Europe/Paris") }}</p>
+    <p>Ajouté le {{ competition.ajout|date("F jS \\a\\t g:i") }}</p>
+
+{% endblock %}

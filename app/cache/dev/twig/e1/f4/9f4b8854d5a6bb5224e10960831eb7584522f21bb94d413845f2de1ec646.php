@@ -11,8 +11,9 @@ class __TwigTemplate_e1f49f4b8854d5a6bb5224e10960831eb7584522f21bb94d413845f2de1
 
         $this->blocks = array(
             'body' => array($this, 'block_body'),
-            'aside' => array($this, 'block_aside'),
+            'asideleft' => array($this, 'block_asideleft'),
             'section' => array($this, 'block_section'),
+            'asideright' => array($this, 'block_asideright'),
         );
     }
 
@@ -39,36 +40,50 @@ class __TwigTemplate_e1f49f4b8854d5a6bb5224e10960831eb7584522f21bb94d413845f2de1
         <div class=\"col-md-2\">
             ";
         // line 8
-        $this->displayBlock('aside', $context, $blocks);
+        $this->displayBlock('asideleft', $context, $blocks);
         // line 11
         echo "        </div>
-        <div class=\"col-md-10\">
-            <div class=\"panel panel-default\">
-                <div class=\"panel-heading\">Acceuil</div>
-                <div class=\"panel-body\">
-                    ";
-        // line 16
+\t\t
+\t\t<div class=\"col-md-8\">
+\t\t\t";
+        // line 14
         $this->displayBlock('section', $context, $blocks);
-        // line 17
-        echo "                </div>
-            </div>
-        </div>
+        // line 15
+        echo "\t\t</div>
+        
+\t\t<div class=\"col-md-2\">
+            ";
+        // line 18
+        $this->displayBlock('asideright', $context, $blocks);
+        // line 21
+        echo "        </div>
+    </div>
 ";
     }
 
     // line 8
-    public function block_aside($context, array $blocks = array())
+    public function block_asideleft($context, array $blocks = array())
     {
         // line 9
         echo "                ";
-        echo $this->env->getExtension('http_kernel')->renderFragment($this->env->getExtension('http_kernel')->controller("PesFrontBundle:front:lastNews", array("nombre" => 3)));
+        echo $this->env->getExtension('http_kernel')->renderFragment($this->env->getExtension('http_kernel')->controller("PesFrontBundle:front:lastNews", array("nombre" => 5)));
         echo "
             ";
     }
 
-    // line 16
+    // line 14
     public function block_section($context, array $blocks = array())
     {
+    }
+
+    // line 18
+    public function block_asideright($context, array $blocks = array())
+    {
+        // line 19
+        echo "                ";
+        echo $this->env->getExtension('http_kernel')->renderFragment($this->env->getExtension('http_kernel')->controller("PesFrontBundle:front:plannedCompetitions", array("nombre" => 5)));
+        echo "
+            ";
     }
 
     public function getTemplateName()
@@ -83,6 +98,6 @@ class __TwigTemplate_e1f49f4b8854d5a6bb5224e10960831eb7584522f21bb94d413845f2de1
 
     public function getDebugInfo()
     {
-        return array (  70 => 16,  63 => 9,  60 => 8,  53 => 17,  51 => 16,  44 => 11,  42 => 8,  38 => 6,  36 => 5,  33 => 4,  30 => 3,);
+        return array (  83 => 19,  80 => 18,  75 => 14,  68 => 9,  65 => 8,  59 => 21,  52 => 15,  50 => 14,  43 => 8,  39 => 6,  37 => 5,  34 => 4,  64 => 17,  57 => 18,  53 => 12,  49 => 11,  45 => 11,  40 => 8,  36 => 7,  31 => 3,  28 => 3,);
     }
 }
