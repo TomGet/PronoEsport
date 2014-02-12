@@ -7,16 +7,16 @@ class __TwigTemplate_27378a28161cfadaf631fa400cef49704a13ca7f45f307ba51ed0d74500
     {
         parent::__construct($env);
 
-        $this->parent = $this->env->loadTemplate("::base.html.twig");
+        $this->parent = $this->env->loadTemplate("PesFrontBundle::layout.html.twig");
 
         $this->blocks = array(
-            'body' => array($this, 'block_body'),
+            'section' => array($this, 'block_section'),
         );
     }
 
     protected function doGetParent(array $context)
     {
-        return "::base.html.twig";
+        return "PesFrontBundle::layout.html.twig";
     }
 
     protected function doDisplay(array $context, array $blocks = array())
@@ -25,26 +25,42 @@ class __TwigTemplate_27378a28161cfadaf631fa400cef49704a13ca7f45f307ba51ed0d74500
     }
 
     // line 3
-    public function block_body($context, array $blocks = array())
+    public function block_section($context, array $blocks = array())
     {
         // line 4
-        echo "<h1>Tournoi creation</h1>
-
-    ";
-        // line 6
-        echo         $this->env->getExtension('form')->renderer->renderBlock((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), 'form');
+        echo "    <div class=\"panel panel-default\">
+    <div class=\"panel-heading\">Ajout d'un tournoi</div>
+    <div class=\"panel-body\">
+        ";
+        // line 7
+        echo         $this->env->getExtension('form')->renderer->renderBlock((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), 'form_start');
+        echo "
+        ";
+        // line 8
+        echo $this->env->getExtension('form')->renderer->searchAndRenderBlock((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), 'errors');
         echo "
 
-        <ul class=\"record_actions\">
-    <li>
-        <a href=\"";
+        <div class=\"form-group\">";
         // line 10
-        echo $this->env->getExtension('routing')->getPath("tournoi");
-        echo "\">
-            Back to the list
-        </a>
-    </li>
-</ul>
+        echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "nom"), 'label');
+        echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "nom"), 'widget');
+        echo "</div>
+        <div class=\"form-group\">";
+        // line 11
+        echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "site"), 'label');
+        echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "site"), 'widget');
+        echo "</div>
+
+        <button type=\"submit\" class=\"btn btn-primary\">
+            <span class=\"glyphicon glyphicon-floppy-save\"></span> Enregistrer
+        </button>
+        ";
+        // line 16
+        echo         $this->env->getExtension('form')->renderer->renderBlock((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), 'form_end');
+        echo "
+
+</div>
+</div>
 ";
     }
 
@@ -60,6 +76,6 @@ class __TwigTemplate_27378a28161cfadaf631fa400cef49704a13ca7f45f307ba51ed0d74500
 
     public function getDebugInfo()
     {
-        return array (  42 => 10,  35 => 6,  31 => 4,  28 => 3,);
+        return array (  59 => 16,  50 => 11,  45 => 10,  40 => 8,  36 => 7,  31 => 4,  28 => 3,);
     }
 }

@@ -44,7 +44,7 @@ class TournoiController extends Controller
             $em->persist($entity);
             $em->flush();
 
-            return $this->redirect($this->generateUrl('tournoi_show', array('id' => $entity->getId())));
+            return $this->redirect($this->generateUrl('pes_tournoi_show', array('id' => $entity->getId())));
         }
 
         return $this->render('PesFrontBundle:Tournoi:new.html.twig', array(
@@ -63,11 +63,11 @@ class TournoiController extends Controller
     private function createCreateForm(Tournoi $entity)
     {
         $form = $this->createForm(new TournoiType(), $entity, array(
-            'action' => $this->generateUrl('tournoi_create'),
+            'action' => $this->generateUrl('pes_tournoi_create'),
             'method' => 'POST',
         ));
 
-        $form->add('submit', 'submit', array('label' => 'Create'));
+        //$form->add('submit', 'submit', array('label' => 'Create'));
 
         return $form;
     }
@@ -142,11 +142,11 @@ class TournoiController extends Controller
     private function createEditForm(Tournoi $entity)
     {
         $form = $this->createForm(new TournoiType(), $entity, array(
-            'action' => $this->generateUrl('tournoi_update', array('id' => $entity->getId())),
+            'action' => $this->generateUrl('pes_tournoi_update', array('id' => $entity->getId())),
             'method' => 'PUT',
         ));
 
-        $form->add('submit', 'submit', array('label' => 'Update'));
+        //$form->add('submit', 'submit', array('label' => 'Update'));
 
         return $form;
     }
@@ -171,7 +171,7 @@ class TournoiController extends Controller
         if ($editForm->isValid()) {
             $em->flush();
 
-            return $this->redirect($this->generateUrl('tournoi_edit', array('id' => $id)));
+            return $this->redirect($this->generateUrl('pes_tournoi_edit', array('id' => $id)));
         }
 
         return $this->render('PesFrontBundle:Tournoi:edit.html.twig', array(
@@ -201,7 +201,7 @@ class TournoiController extends Controller
             $em->flush();
         }
 
-        return $this->redirect($this->generateUrl('tournoi'));
+        return $this->redirect($this->generateUrl('pes_tournoi'));
     }
 
     /**
@@ -214,7 +214,7 @@ class TournoiController extends Controller
     private function createDeleteForm($id)
     {
         return $this->createFormBuilder()
-            ->setAction($this->generateUrl('tournoi_delete', array('id' => $id)))
+            ->setAction($this->generateUrl('pes_tournoi_delete', array('id' => $id)))
             ->setMethod('DELETE')
             ->add('submit', 'submit', array('label' => 'Delete'))
             ->getForm()

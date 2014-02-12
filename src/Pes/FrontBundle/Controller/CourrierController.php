@@ -176,7 +176,7 @@ class CourrierController extends Controller
         if ($editForm->isValid()) {
             $em->flush();
 
-            return $this->redirect($this->generateUrl('courrier_edit', array('id' => $id)));
+            return $this->redirect($this->generateUrl('pes_courrier_edit', array('id' => $id)));
         }
 
         return $this->render('PesFrontBundle:Courrier:edit.html.twig', array(
@@ -206,7 +206,7 @@ class CourrierController extends Controller
             $em->flush();
         }
 
-        return $this->redirect($this->generateUrl('courrier'));
+        return $this->redirect($this->generateUrl('pes_courrier_list'));
     }
 
     /**
@@ -219,7 +219,7 @@ class CourrierController extends Controller
     private function createDeleteForm($id)
     {
         return $this->createFormBuilder()
-            ->setAction($this->generateUrl('courrier_delete', array('id' => $id)))
+            ->setAction($this->generateUrl('pes_courrier_delete', array('id' => $id)))
             ->setMethod('DELETE')
             ->add('submit', 'submit', array('label' => 'Delete'))
             ->getForm()

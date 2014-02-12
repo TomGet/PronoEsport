@@ -19,7 +19,7 @@ class CompetitionType extends AbstractType
         $builder
             ->add('nom', 'text', array('label' => 'Nom : ', 'attr' => array('class' => 'form-control')))
             //->add('ajout', 'text', array('ajout' => 'Nom : ', 'attr' => array('class' => 'form-control')))
-            ->add('date', 'datetime', array('label' => 'Date & Heure : '))
+            ->add('date', 'datetime', array('years'=> range(14,20), 'label' => 'Date & Heure : '))
             //->add('resultat', 'text', array('label' => 'Nom : ', 'attr' => array('class' => 'form-control')))
             ->add('typeCompetition' ,'entity', array(
 				'attr' => array('class' => 'form-control'),
@@ -36,8 +36,7 @@ class CompetitionType extends AbstractType
 						return $er->createQueryBuilder('t')
 							->orderBy('t.nom', 'ASC');
 					},
-			))
-        ;
+			));
     }
     
     /**

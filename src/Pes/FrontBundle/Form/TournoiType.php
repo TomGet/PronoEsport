@@ -15,8 +15,8 @@ class TournoiType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('nom')
-            ->add('site')
+            ->add('nom', 'text', array('label' => 'Nom : ', 'attr' => array('class' => 'form-control')))
+            ->add('site', 'text', array('label' => 'Site : ', 'required' => false, 'attr' => array('class' => 'form-control')))
         ;
     }
     

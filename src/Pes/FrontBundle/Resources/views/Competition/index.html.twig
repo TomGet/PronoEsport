@@ -1,47 +1,39 @@
-{% extends '::base.html.twig' %}
+{% extends 'PesFrontBundle::layout.html.twig' %}
 
-{% block body -%}
-    <h1>Competition list</h1>
-
-    <table class="records_list">
-        <thead>
-            <tr>
-                <th>Id</th>
-                <th>Nom</th>
-                <th>Ajout</th>
-                <th>Date</th>
-                <th>Resultat</th>
-                <th>Actions</th>
-            </tr>
-        </thead>
-        <tbody>
+{% block section %}
+    <div class="panel panel-default">
+    <div class="panel-heading">Liste des matchs</div>
+        <div class="panel-body">
+            <a class="btn btn-primary" href="{{ path('competition_new') }}">
+                <span class="glyphicon glyphicon-plus"></span> Ajouter un match
+            </a>
+        </div>
+    <table class="table table-bordered">
+        <tr>
+            <th>Nom</th>
+            <th>Date d'jout</th>
+            <th>Date du match</th>
+            <th>Resultat</th>
+            <th>Actions</th>
+        </tr>
         {% for entity in entities %}
             <tr>
-                <td><a href="{{ path('competition_show', { 'id': entity.id }) }}">{{ entity.id }}</a></td>
                 <td>{{ entity.nom }}</td>
                 <td>{% if entity.ajout %}{{ entity.ajout|date('Y-m-d H:i:s') }}{% endif %}</td>
                 <td>{% if entity.date %}{{ entity.date|date('Y-m-d H:i:s') }}{% endif %}</td>
                 <td>{{ entity.resultat }}</td>
                 <td>
-                <ul>
-                    <li>
-                        <a href="{{ path('competition_show', { 'id': entity.id }) }}">show</a>
-                    </li>
-                    <li>
-                        <a href="{{ path('competition_edit', { 'id': entity.id }) }}">edit</a>
-                    </li>
-                </ul>
+                    <div class="btn-group">
+                        <a class="btn btn-info" href="{{ path('pes_competition_show', { 'id': entity.id }) }}">
+                            <span class="glyphicon glyphicon-check"></span>
+                        </a>
+                        <a class="btn btn-warning" href="{{ path('pes_competition_edit', { 'id': entity.id }) }}">
+                            <span class="glyphicon glyphicon-edit"></span>
+                        </a>
+                    </div>
                 </td>
             </tr>
         {% endfor %}
-        </tbody>
     </table>
-
-        <ul>
-        <li>
-            <a href="{{ path('competition_new') }}">
-                Create a new entry
-            </a>
-        </li>
-    </ul>
-    {% endblock %}
+</div>
+{% endblock %}

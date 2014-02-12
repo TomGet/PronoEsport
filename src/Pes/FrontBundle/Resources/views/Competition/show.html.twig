@@ -1,7 +1,9 @@
-{% extends '::base.html.twig' %}
+{% extends 'PesFrontBundle::layout.html.twig' %}
 
-{% block body -%}
-    <h1>Competition</h1>
+{% block section %}
+<div class="panel panel-default">
+    <div class="panel-heading">Fiche Match</div>
+    <div class="panel-body">
 
     <table class="record_properties">
         <tbody>
@@ -30,15 +32,17 @@
 
         <ul class="record_actions">
     <li>
-        <a href="{{ path('competition') }}">
+        <a href="{{ path('pes_competition') }}">
             Back to the list
         </a>
     </li>
     <li>
-        <a href="{{ path('competition_edit', { 'id': entity.id }) }}">
+        <a href="{{ path('pes_competition_edit', { 'id': entity.id }) }}">
             Edit
         </a>
     </li>
     <li>{{ form(delete_form) }}</li>
 </ul>
+    </div>
+        </div>
 {% endblock %}

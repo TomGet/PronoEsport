@@ -40,13 +40,15 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#">Link</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Liens admin <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
+                        <li {% if app.request.attributes.get('_route') == 'pes_tournoi_list' %}class="active"{% endif %}><a href="{{ path('pes_tournoi_list') }}">Liste des tournois</a></li>
+                        <li {% if app.request.attributes.get('_route') == 'pes_tournoi_new' %}class="active"{% endif %}><a href="{{ path('pes_tournoi_new') }}">Ajouter un tournoi</a></li>
                         <li class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
+                        <li {% if app.request.attributes.get('_route') == 'pes_competition_list' %}class="active"{% endif %}><a href="{{ path('pes_competition_list') }}">Liste des matchs</a></li>
+                        <li {% if app.request.attributes.get('_route') == 'pes_competition' %}class="active"{% endif %}><a href="{{ path('pes_competition_new') }}">Ajouter un match</a></li>
+                        <li class="divider"></li>
+                        <li {% if app.request.attributes.get('_route') == 'pes_courrier_list' %}class="active"{% endif %}><a href="{{ path('pes_courrier_list') }}">Liste des courriers</a></li>
                     </ul>
                 </li>
             </ul>

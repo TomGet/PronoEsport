@@ -10,11 +10,15 @@ pes_front_voir_news:
 
 # Competitions
 pes_front_voir_competition:
-    pattern:  /competition/voir/{id}
+    pattern:  /match/voir/{id}
     defaults: { _controller: PesFrontBundle:Front:voirCompetition }
 
+pes_competition:
+    resource: "@PesFrontBundle/Resources/config/routing/competition.yml"
+    prefix:   /competition
+
 pes_front_liste_competitions:
-    pattern:  /competition/liste
+    pattern:  /matchs/liste
     defaults: { _controller: PesFrontBundle:Front:listeCompetitions }
 
 # Courrier
@@ -30,8 +34,3 @@ pes_courrier_new:
 pes_tournoi:
     resource: "@PesFrontBundle/Resources/config/routing/tournoi.yml"
     prefix:   /tournoi
-
-# Competition
-pes_competition:
-    resource: "@PesFrontBundle/Resources/config/routing/competition.yml"
-    prefix:   /competition

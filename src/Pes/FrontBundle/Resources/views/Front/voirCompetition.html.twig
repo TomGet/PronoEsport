@@ -1,10 +1,12 @@
 {% extends 'PesFrontBundle::layout.html.twig' %}
 
 {% block section %}
-
-    <h2>{{ competition.nom }}</h2>
-    <p class="text-justify">{{ competition.typeCompetition.libelle }}</p>
-    <p>le {{ competition.date|date("F jS \\a\\t g:i", "Europe/Paris") }}</p>
-    <p>Ajouté le {{ competition.ajout|date("F jS \\a\\t g:i") }}</p>
-
+    <div class="panel panel-default">
+        <div class="panel-heading">Fiche Match</div>
+        <div class="panel-body">
+            <h2>{{ competition.nom }}</h2> <span class="lead">{{ competition.typeCompetition.libelle }}</span>
+            <p>le {{ competition.date|date("F jS \\a\\t g:i") }}</p>
+            <p>Ajouté le {{ competition.ajout|date("F jS \\a\\t g:i") }}</p>
+        </div>
+    </div>
 {% endblock %}

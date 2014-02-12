@@ -147,20 +147,73 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
             return $this->mergeDefaults(array_replace($matches, array('_route' => 'pes_front_voir_news')), array (  '_controller' => 'Pes\\FrontBundle\\Controller\\FrontController::voirNewsAction',));
         }
 
-        if (0 === strpos($pathinfo, '/co')) {
-            if (0 === strpos($pathinfo, '/competition')) {
-                // pes_front_voir_competition
-                if (0 === strpos($pathinfo, '/competition/voir') && preg_match('#^/competition/voir/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
-                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'pes_front_voir_competition')), array (  '_controller' => 'Pes\\FrontBundle\\Controller\\FrontController::voirCompetitionAction',));
-                }
+        // pes_front_voir_competition
+        if (0 === strpos($pathinfo, '/match/voir') && preg_match('#^/match/voir/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'pes_front_voir_competition')), array (  '_controller' => 'Pes\\FrontBundle\\Controller\\FrontController::voirCompetitionAction',));
+        }
 
-                // pes_front_liste_competitions
-                if ($pathinfo === '/competition/liste') {
-                    return array (  '_controller' => 'Pes\\FrontBundle\\Controller\\FrontController::listeCompetitionsAction',  '_route' => 'pes_front_liste_competitions',);
-                }
-
+        if (0 === strpos($pathinfo, '/competition')) {
+            // pes_competition_list
+            if ($pathinfo === '/competition/liste') {
+                return array (  '_controller' => 'Pes\\FrontBundle\\Controller\\CompetitionController::indexAction',  '_route' => 'pes_competition_list',);
             }
 
+            // pes_competition_show
+            if (preg_match('#^/competition/(?P<id>[^/]++)/show$#s', $pathinfo, $matches)) {
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'pes_competition_show')), array (  '_controller' => 'Pes\\FrontBundle\\Controller\\CompetitionController::showAction',));
+            }
+
+            // pes_competition_new
+            if ($pathinfo === '/competition/new') {
+                return array (  '_controller' => 'Pes\\FrontBundle\\Controller\\CompetitionController::newAction',  '_route' => 'pes_competition_new',);
+            }
+
+            // pes_competition_create
+            if ($pathinfo === '/competition/create') {
+                if ($this->context->getMethod() != 'POST') {
+                    $allow[] = 'POST';
+                    goto not_pes_competition_create;
+                }
+
+                return array (  '_controller' => 'Pes\\FrontBundle\\Controller\\CompetitionController::createAction',  '_route' => 'pes_competition_create',);
+            }
+            not_pes_competition_create:
+
+            // pes_competition_edit
+            if (preg_match('#^/competition/(?P<id>[^/]++)/edit$#s', $pathinfo, $matches)) {
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'pes_competition_edit')), array (  '_controller' => 'Pes\\FrontBundle\\Controller\\CompetitionController::editAction',));
+            }
+
+            // pes_competition_update
+            if (preg_match('#^/competition/(?P<id>[^/]++)/update$#s', $pathinfo, $matches)) {
+                if (!in_array($this->context->getMethod(), array('POST', 'PUT'))) {
+                    $allow = array_merge($allow, array('POST', 'PUT'));
+                    goto not_pes_competition_update;
+                }
+
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'pes_competition_update')), array (  '_controller' => 'Pes\\FrontBundle\\Controller\\CompetitionController::updateAction',));
+            }
+            not_pes_competition_update:
+
+            // pes_competition_delete
+            if (preg_match('#^/competition/(?P<id>[^/]++)/delete$#s', $pathinfo, $matches)) {
+                if (!in_array($this->context->getMethod(), array('POST', 'DELETE'))) {
+                    $allow = array_merge($allow, array('POST', 'DELETE'));
+                    goto not_pes_competition_delete;
+                }
+
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'pes_competition_delete')), array (  '_controller' => 'Pes\\FrontBundle\\Controller\\CompetitionController::deleteAction',));
+            }
+            not_pes_competition_delete:
+
+        }
+
+        // pes_front_liste_competitions
+        if ($pathinfo === '/matchs/liste') {
+            return array (  '_controller' => 'Pes\\FrontBundle\\Controller\\FrontController::listeCompetitionsAction',  '_route' => 'pes_front_liste_competitions',);
+        }
+
+        if (0 === strpos($pathinfo, '/co')) {
             if (0 === strpos($pathinfo, '/courrier')) {
                 // pes_courrier_list
                 if ($pathinfo === '/courrier/liste') {
@@ -220,122 +273,58 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
         }
 
         if (0 === strpos($pathinfo, '/tournoi')) {
-            // tournoi
-            if (rtrim($pathinfo, '/') === '/tournoi') {
-                if (substr($pathinfo, -1) !== '/') {
-                    return $this->redirect($pathinfo.'/', 'tournoi');
-                }
-
-                return array (  '_controller' => 'Pes\\FrontBundle\\Controller\\TournoiController::indexAction',  '_route' => 'tournoi',);
+            // pes_tournoi_list
+            if ($pathinfo === '/tournoi/liste') {
+                return array (  '_controller' => 'Pes\\FrontBundle\\Controller\\TournoiController::indexAction',  '_route' => 'pes_tournoi_list',);
             }
 
-            // tournoi_show
+            // pes_tournoi_show
             if (preg_match('#^/tournoi/(?P<id>[^/]++)/show$#s', $pathinfo, $matches)) {
-                return $this->mergeDefaults(array_replace($matches, array('_route' => 'tournoi_show')), array (  '_controller' => 'Pes\\FrontBundle\\Controller\\TournoiController::showAction',));
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'pes_tournoi_show')), array (  '_controller' => 'Pes\\FrontBundle\\Controller\\TournoiController::showAction',));
             }
 
-            // tournoi_new
+            // pes_tournoi_new
             if ($pathinfo === '/tournoi/new') {
-                return array (  '_controller' => 'Pes\\FrontBundle\\Controller\\TournoiController::newAction',  '_route' => 'tournoi_new',);
+                return array (  '_controller' => 'Pes\\FrontBundle\\Controller\\TournoiController::newAction',  '_route' => 'pes_tournoi_new',);
             }
 
-            // tournoi_create
+            // pes_tournoi_create
             if ($pathinfo === '/tournoi/create') {
                 if ($this->context->getMethod() != 'POST') {
                     $allow[] = 'POST';
-                    goto not_tournoi_create;
+                    goto not_pes_tournoi_create;
                 }
 
-                return array (  '_controller' => 'Pes\\FrontBundle\\Controller\\TournoiController::createAction',  '_route' => 'tournoi_create',);
+                return array (  '_controller' => 'Pes\\FrontBundle\\Controller\\TournoiController::createAction',  '_route' => 'pes_tournoi_create',);
             }
-            not_tournoi_create:
+            not_pes_tournoi_create:
 
-            // tournoi_edit
+            // pes_tournoi_edit
             if (preg_match('#^/tournoi/(?P<id>[^/]++)/edit$#s', $pathinfo, $matches)) {
-                return $this->mergeDefaults(array_replace($matches, array('_route' => 'tournoi_edit')), array (  '_controller' => 'Pes\\FrontBundle\\Controller\\TournoiController::editAction',));
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'pes_tournoi_edit')), array (  '_controller' => 'Pes\\FrontBundle\\Controller\\TournoiController::editAction',));
             }
 
-            // tournoi_update
+            // pes_tournoi_update
             if (preg_match('#^/tournoi/(?P<id>[^/]++)/update$#s', $pathinfo, $matches)) {
                 if (!in_array($this->context->getMethod(), array('POST', 'PUT'))) {
                     $allow = array_merge($allow, array('POST', 'PUT'));
-                    goto not_tournoi_update;
+                    goto not_pes_tournoi_update;
                 }
 
-                return $this->mergeDefaults(array_replace($matches, array('_route' => 'tournoi_update')), array (  '_controller' => 'Pes\\FrontBundle\\Controller\\TournoiController::updateAction',));
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'pes_tournoi_update')), array (  '_controller' => 'Pes\\FrontBundle\\Controller\\TournoiController::updateAction',));
             }
-            not_tournoi_update:
+            not_pes_tournoi_update:
 
-            // tournoi_delete
+            // pes_tournoi_delete
             if (preg_match('#^/tournoi/(?P<id>[^/]++)/delete$#s', $pathinfo, $matches)) {
                 if (!in_array($this->context->getMethod(), array('POST', 'DELETE'))) {
                     $allow = array_merge($allow, array('POST', 'DELETE'));
-                    goto not_tournoi_delete;
+                    goto not_pes_tournoi_delete;
                 }
 
-                return $this->mergeDefaults(array_replace($matches, array('_route' => 'tournoi_delete')), array (  '_controller' => 'Pes\\FrontBundle\\Controller\\TournoiController::deleteAction',));
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'pes_tournoi_delete')), array (  '_controller' => 'Pes\\FrontBundle\\Controller\\TournoiController::deleteAction',));
             }
-            not_tournoi_delete:
-
-        }
-
-        if (0 === strpos($pathinfo, '/competition')) {
-            // competition
-            if (rtrim($pathinfo, '/') === '/competition') {
-                if (substr($pathinfo, -1) !== '/') {
-                    return $this->redirect($pathinfo.'/', 'competition');
-                }
-
-                return array (  '_controller' => 'Pes\\FrontBundle\\Controller\\CompetitionController::indexAction',  '_route' => 'competition',);
-            }
-
-            // competition_show
-            if (preg_match('#^/competition/(?P<id>[^/]++)/show$#s', $pathinfo, $matches)) {
-                return $this->mergeDefaults(array_replace($matches, array('_route' => 'competition_show')), array (  '_controller' => 'Pes\\FrontBundle\\Controller\\CompetitionController::showAction',));
-            }
-
-            // competition_new
-            if ($pathinfo === '/competition/new') {
-                return array (  '_controller' => 'Pes\\FrontBundle\\Controller\\CompetitionController::newAction',  '_route' => 'competition_new',);
-            }
-
-            // competition_create
-            if ($pathinfo === '/competition/create') {
-                if ($this->context->getMethod() != 'POST') {
-                    $allow[] = 'POST';
-                    goto not_competition_create;
-                }
-
-                return array (  '_controller' => 'Pes\\FrontBundle\\Controller\\CompetitionController::createAction',  '_route' => 'competition_create',);
-            }
-            not_competition_create:
-
-            // competition_edit
-            if (preg_match('#^/competition/(?P<id>[^/]++)/edit$#s', $pathinfo, $matches)) {
-                return $this->mergeDefaults(array_replace($matches, array('_route' => 'competition_edit')), array (  '_controller' => 'Pes\\FrontBundle\\Controller\\CompetitionController::editAction',));
-            }
-
-            // competition_update
-            if (preg_match('#^/competition/(?P<id>[^/]++)/update$#s', $pathinfo, $matches)) {
-                if (!in_array($this->context->getMethod(), array('POST', 'PUT'))) {
-                    $allow = array_merge($allow, array('POST', 'PUT'));
-                    goto not_competition_update;
-                }
-
-                return $this->mergeDefaults(array_replace($matches, array('_route' => 'competition_update')), array (  '_controller' => 'Pes\\FrontBundle\\Controller\\CompetitionController::updateAction',));
-            }
-            not_competition_update:
-
-            // competition_delete
-            if (preg_match('#^/competition/(?P<id>[^/]++)/delete$#s', $pathinfo, $matches)) {
-                if (!in_array($this->context->getMethod(), array('POST', 'DELETE'))) {
-                    $allow = array_merge($allow, array('POST', 'DELETE'));
-                    goto not_competition_delete;
-                }
-
-                return $this->mergeDefaults(array_replace($matches, array('_route' => 'competition_delete')), array (  '_controller' => 'Pes\\FrontBundle\\Controller\\CompetitionController::deleteAction',));
-            }
-            not_competition_delete:
+            not_pes_tournoi_delete:
 
         }
 

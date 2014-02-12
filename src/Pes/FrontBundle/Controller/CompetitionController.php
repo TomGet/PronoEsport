@@ -44,8 +44,11 @@ class CompetitionController extends Controller
             $em->persist($entity);
             $em->flush();
 
-            return $this->redirect($this->generateUrl('competition_show', array('id' => $entity->getId())));
+            return $this->redirect($this->generateUrl('pes_competition_show', array('id' => $entity->getId())));
         }
+
+		\Doctrine\Common\Util\Debug::dump($form);
+		var_dump($form);
 
         return $this->render('PesFrontBundle:Competition:new.html.twig', array(
             'entity' => $entity,
@@ -63,7 +66,7 @@ class CompetitionController extends Controller
     private function createCreateForm(Competition $entity)
     {
         $form = $this->createForm(new CompetitionType(), $entity, array(
-            'action' => $this->generateUrl('competition_create'),
+            'action' => $this->generateUrl('pes_competition_create'),
             'method' => 'POST',
         ));
 

@@ -31,7 +31,7 @@ class Tournoi
     /**
      * @var string
      *
-     * @ORM\Column(name="site", type="string", length=255)
+     * @ORM\Column(name="site", type="string", length=255, nullable=true)
      */
     private $site;
 
@@ -91,4 +91,9 @@ class Tournoi
     {
         return $this->site;
     }
+
+	public function __toString()
+	{
+		return $this->getNom();
+	}
 }

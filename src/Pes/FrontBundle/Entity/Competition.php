@@ -61,6 +61,10 @@ class Competition
 	 */
 	private $tournoi;
 
+	public function __construct()
+	{
+		$this->ajout = new \DateTime();
+	}
 
     /**
      * Get id

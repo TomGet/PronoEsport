@@ -1,48 +1,29 @@
-{% extends '::base.html.twig' %}
+{% extends 'PesFrontBundle::layout.html.twig' %}
 
-{% block body -%}
-    <h1>Courrier</h1>
+{% block section %}
+    <div class="panel panel-default">
+        <div class="panel-heading">Courrier</div>
+        <div class="panel-body">
+            <p><span class="text-muted">Nom : </span>{{ entity.nom }}</p>
+            <p><span class="text-muted">Email : </span>{{ entity.email }}</p>
+            <p><span class="text-muted">Sujet : </span>{{ entity.sujet }}</p>
+            <p class="text-muted">Message : </p>
+            <p>{{ entity.corps }}</p>
+            <p>Le {{ entity.date|date('Y-m-d H:i:s') }}</p>
 
-    <table class="record_properties">
-        <tbody>
-            <tr>
-                <th>Id</th>
-                <td>{{ entity.id }}</td>
-            </tr>
-            <tr>
-                <th>Nom</th>
-                <td>{{ entity.nom }}</td>
-            </tr>
-            <tr>
-                <th>Email</th>
-                <td>{{ entity.email }}</td>
-            </tr>
-            <tr>
-                <th>Sujet</th>
-                <td>{{ entity.sujet }}</td>
-            </tr>
-            <tr>
-                <th>Corps</th>
-                <td>{{ entity.corps }}</td>
-            </tr>
-            <tr>
-                <th>Date</th>
-                <td>{{ entity.date|date('Y-m-d H:i:s') }}</td>
-            </tr>
-        </tbody>
-    </table>
-
-        <ul class="record_actions">
-    <li>
-        <a href="{{ path('courrier') }}">
-            Back to the list
-        </a>
-    </li>
-    <li>
-        <a href="{{ path('courrier_edit', { 'id': entity.id }) }}">
-            Edit
-        </a>
-    </li>
-    <li>{{ form(delete_form) }}</li>
-</ul>
+            <ul class="record_actions">
+                <li>
+                    <a href="{{ path('pes_courrier_list') }}">
+                        Back to the list
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ path('pes_courrier_edit', { 'id': entity.id }) }}">
+                        Edit
+                    </a>
+                </li>
+                <li>{{ form(delete_form) }}</li>
+            </ul>
+        </div>
+    </div>
 {% endblock %}
