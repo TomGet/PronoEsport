@@ -147,6 +147,22 @@ class appDevDebugProjectContainer extends Container
             'monolog.logger.router' => 'getMonolog_Logger_RouterService',
             'monolog.logger.security' => 'getMonolog_Logger_SecurityService',
             'monolog.logger.templating' => 'getMonolog_Logger_TemplatingService',
+            'pes.commentaire_news_manager' => 'getPes_CommentaireNewsManagerService',
+            'pes.commentaire_video_manager' => 'getPes_CommentaireVideoManagerService',
+            'pes.competition_manager' => 'getPes_CompetitionManagerService',
+            'pes.courrier_manager' => 'getPes_CourrierManagerService',
+            'pes.equipe_manager' => 'getPes_EquipeManagerService',
+            'pes.hebergeur_stream_manager' => 'getPes_HebergeurStreamManagerService',
+            'pes.jeu_manager' => 'getPes_JeuManagerService',
+            'pes.joueur_manager' => 'getPes_JoueurManagerService',
+            'pes.news_manager' => 'getPes_NewsManagerService',
+            'pes.pays_manager' => 'getPes_PaysManagerService',
+            'pes.reclamation_manager' => 'getPes_ReclamationManagerService',
+            'pes.stream_manager' => 'getPes_StreamManagerService',
+            'pes.tournoi_manager' => 'getPes_TournoiManagerService',
+            'pes.type_competition_manager' => 'getPes_TypeCompetitionManagerService',
+            'pes.type_video_manager' => 'getPes_TypeVideoManagerService',
+            'pes.video_manager' => 'getPes_VideoManagerService',
             'profiler' => 'getProfilerService',
             'profiler_listener' => 'getProfilerListenerService',
             'property_accessor' => 'getPropertyAccessorService',
@@ -1893,6 +1909,214 @@ class appDevDebugProjectContainer extends Container
     }
 
     /**
+     * Gets the 'pes.commentaire_news_manager' service.
+     *
+     * This service is shared.
+     * This method always returns the same instance of the service.
+     *
+     * @return Pes\FrontBundle\Manager\CommentaireNewsManager A Pes\FrontBundle\Manager\CommentaireNewsManager instance.
+     */
+    protected function getPes_CommentaireNewsManagerService()
+    {
+        return $this->services['pes.commentaire_news_manager'] = new \Pes\FrontBundle\Manager\CommentaireNewsManager($this->get('doctrine.orm.default_entity_manager'));
+    }
+
+    /**
+     * Gets the 'pes.commentaire_video_manager' service.
+     *
+     * This service is shared.
+     * This method always returns the same instance of the service.
+     *
+     * @return Pes\FrontBundle\Manager\CommentaireVideoManager A Pes\FrontBundle\Manager\CommentaireVideoManager instance.
+     */
+    protected function getPes_CommentaireVideoManagerService()
+    {
+        return $this->services['pes.commentaire_video_manager'] = new \Pes\FrontBundle\Manager\CommentaireVideoManager($this->get('doctrine.orm.default_entity_manager'));
+    }
+
+    /**
+     * Gets the 'pes.competition_manager' service.
+     *
+     * This service is shared.
+     * This method always returns the same instance of the service.
+     *
+     * @return Pes\FrontBundle\Manager\CompetitionManager A Pes\FrontBundle\Manager\CompetitionManager instance.
+     */
+    protected function getPes_CompetitionManagerService()
+    {
+        return $this->services['pes.competition_manager'] = new \Pes\FrontBundle\Manager\CompetitionManager($this->get('doctrine.orm.default_entity_manager'));
+    }
+
+    /**
+     * Gets the 'pes.courrier_manager' service.
+     *
+     * This service is shared.
+     * This method always returns the same instance of the service.
+     *
+     * @return Pes\FrontBundle\Manager\CourrierManager A Pes\FrontBundle\Manager\CourrierManager instance.
+     */
+    protected function getPes_CourrierManagerService()
+    {
+        return $this->services['pes.courrier_manager'] = new \Pes\FrontBundle\Manager\CourrierManager($this->get('doctrine.orm.default_entity_manager'));
+    }
+
+    /**
+     * Gets the 'pes.equipe_manager' service.
+     *
+     * This service is shared.
+     * This method always returns the same instance of the service.
+     *
+     * @return Pes\FrontBundle\Manager\EquipeManager A Pes\FrontBundle\Manager\EquipeManager instance.
+     */
+    protected function getPes_EquipeManagerService()
+    {
+        return $this->services['pes.equipe_manager'] = new \Pes\FrontBundle\Manager\EquipeManager($this->get('doctrine.orm.default_entity_manager'));
+    }
+
+    /**
+     * Gets the 'pes.hebergeur_stream_manager' service.
+     *
+     * This service is shared.
+     * This method always returns the same instance of the service.
+     *
+     * @return Pes\FrontBundle\Manager\HebergeurStreamManager A Pes\FrontBundle\Manager\HebergeurStreamManager instance.
+     */
+    protected function getPes_HebergeurStreamManagerService()
+    {
+        return $this->services['pes.hebergeur_stream_manager'] = new \Pes\FrontBundle\Manager\HebergeurStreamManager($this->get('doctrine.orm.default_entity_manager'));
+    }
+
+    /**
+     * Gets the 'pes.jeu_manager' service.
+     *
+     * This service is shared.
+     * This method always returns the same instance of the service.
+     *
+     * @return Pes\FrontBundle\Manager\JeuManager A Pes\FrontBundle\Manager\JeuManager instance.
+     */
+    protected function getPes_JeuManagerService()
+    {
+        return $this->services['pes.jeu_manager'] = new \Pes\FrontBundle\Manager\JeuManager($this->get('doctrine.orm.default_entity_manager'));
+    }
+
+    /**
+     * Gets the 'pes.joueur_manager' service.
+     *
+     * This service is shared.
+     * This method always returns the same instance of the service.
+     *
+     * @return Pes\FrontBundle\Manager\JoueurManager A Pes\FrontBundle\Manager\JoueurManager instance.
+     */
+    protected function getPes_JoueurManagerService()
+    {
+        return $this->services['pes.joueur_manager'] = new \Pes\FrontBundle\Manager\JoueurManager($this->get('doctrine.orm.default_entity_manager'));
+    }
+
+    /**
+     * Gets the 'pes.news_manager' service.
+     *
+     * This service is shared.
+     * This method always returns the same instance of the service.
+     *
+     * @return Pes\FrontBundle\Manager\NewsManager A Pes\FrontBundle\Manager\NewsManager instance.
+     */
+    protected function getPes_NewsManagerService()
+    {
+        return $this->services['pes.news_manager'] = new \Pes\FrontBundle\Manager\NewsManager($this->get('doctrine.orm.default_entity_manager'));
+    }
+
+    /**
+     * Gets the 'pes.pays_manager' service.
+     *
+     * This service is shared.
+     * This method always returns the same instance of the service.
+     *
+     * @return Pes\FrontBundle\Manager\PaysManager A Pes\FrontBundle\Manager\PaysManager instance.
+     */
+    protected function getPes_PaysManagerService()
+    {
+        return $this->services['pes.pays_manager'] = new \Pes\FrontBundle\Manager\PaysManager($this->get('doctrine.orm.default_entity_manager'));
+    }
+
+    /**
+     * Gets the 'pes.reclamation_manager' service.
+     *
+     * This service is shared.
+     * This method always returns the same instance of the service.
+     *
+     * @return Pes\FrontBundle\Manager\ReclamationManager A Pes\FrontBundle\Manager\ReclamationManager instance.
+     */
+    protected function getPes_ReclamationManagerService()
+    {
+        return $this->services['pes.reclamation_manager'] = new \Pes\FrontBundle\Manager\ReclamationManager($this->get('doctrine.orm.default_entity_manager'));
+    }
+
+    /**
+     * Gets the 'pes.stream_manager' service.
+     *
+     * This service is shared.
+     * This method always returns the same instance of the service.
+     *
+     * @return Pes\FrontBundle\Manager\StreamManager A Pes\FrontBundle\Manager\StreamManager instance.
+     */
+    protected function getPes_StreamManagerService()
+    {
+        return $this->services['pes.stream_manager'] = new \Pes\FrontBundle\Manager\StreamManager($this->get('doctrine.orm.default_entity_manager'));
+    }
+
+    /**
+     * Gets the 'pes.tournoi_manager' service.
+     *
+     * This service is shared.
+     * This method always returns the same instance of the service.
+     *
+     * @return Pes\FrontBundle\Manager\TournoiManager A Pes\FrontBundle\Manager\TournoiManager instance.
+     */
+    protected function getPes_TournoiManagerService()
+    {
+        return $this->services['pes.tournoi_manager'] = new \Pes\FrontBundle\Manager\TournoiManager($this->get('doctrine.orm.default_entity_manager'));
+    }
+
+    /**
+     * Gets the 'pes.type_competition_manager' service.
+     *
+     * This service is shared.
+     * This method always returns the same instance of the service.
+     *
+     * @return Pes\FrontBundle\Manager\TypeCompetitionManager A Pes\FrontBundle\Manager\TypeCompetitionManager instance.
+     */
+    protected function getPes_TypeCompetitionManagerService()
+    {
+        return $this->services['pes.type_competition_manager'] = new \Pes\FrontBundle\Manager\TypeCompetitionManager($this->get('doctrine.orm.default_entity_manager'));
+    }
+
+    /**
+     * Gets the 'pes.type_video_manager' service.
+     *
+     * This service is shared.
+     * This method always returns the same instance of the service.
+     *
+     * @return Pes\FrontBundle\Manager\TypeVideoManager A Pes\FrontBundle\Manager\TypeVideoManager instance.
+     */
+    protected function getPes_TypeVideoManagerService()
+    {
+        return $this->services['pes.type_video_manager'] = new \Pes\FrontBundle\Manager\TypeVideoManager($this->get('doctrine.orm.default_entity_manager'));
+    }
+
+    /**
+     * Gets the 'pes.video_manager' service.
+     *
+     * This service is shared.
+     * This method always returns the same instance of the service.
+     *
+     * @return Pes\FrontBundle\Manager\VideoManager A Pes\FrontBundle\Manager\VideoManager instance.
+     */
+    protected function getPes_VideoManagerService()
+    {
+        return $this->services['pes.video_manager'] = new \Pes\FrontBundle\Manager\VideoManager($this->get('doctrine.orm.default_entity_manager'));
+    }
+
+    /**
      * Gets the 'profiler' service.
      *
      * This service is shared.
@@ -2135,7 +2359,7 @@ class appDevDebugProjectContainer extends Container
         $n = new \Symfony\Component\Security\Http\Authentication\DefaultAuthenticationSuccessHandler($l, array('always_use_default_target_path' => false, 'default_target_path' => '/', 'login_path' => '/login', 'target_path_parameter' => '_target_path', 'use_referer' => false));
         $n->setProviderKey('main');
 
-        return $this->services['security.firewall.map.context.main'] = new \Symfony\Bundle\SecurityBundle\Security\FirewallContext(array(0 => new \Symfony\Component\Security\Http\Firewall\ChannelListener($k, new \Symfony\Component\Security\Http\EntryPoint\RetryAuthenticationEntryPoint(80, 443), $a), 1 => new \Symfony\Component\Security\Http\Firewall\ContextListener($b, array(0 => $this->get('fos_user.user_provider.username')), 'main', $a, $c), 2 => $m, 3 => new \Symfony\Component\Security\Http\Firewall\UsernamePasswordFormAuthenticationListener($b, $f, $this->get('security.authentication.session_strategy'), $l, 'main', $n, new \Symfony\Component\Security\Http\Authentication\DefaultAuthenticationFailureHandler($e, $l, array('login_path' => '/login', 'failure_path' => NULL, 'failure_forward' => false, 'failure_path_parameter' => '_failure_path'), $a), array('check_path' => '/login_check', 'use_forward' => false, 'require_previous_session' => true, 'username_parameter' => '_username', 'password_parameter' => '_password', 'csrf_parameter' => '_csrf_token', 'intention' => 'authenticate', 'post_only' => true), $a, $c, $this->get('form.csrf_provider')), 4 => new \Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener($b, '52fb3ed7487d2', $a), 5 => new \Symfony\Component\Security\Http\Firewall\AccessListener($b, $this->get('security.access.decision_manager'), $k, $f)), new \Symfony\Component\Security\Http\Firewall\ExceptionListener($b, $this->get('security.authentication.trust_resolver'), $l, 'main', new \Symfony\Component\Security\Http\EntryPoint\FormAuthenticationEntryPoint($e, $l, '/login', false), NULL, NULL, $a));
+        return $this->services['security.firewall.map.context.main'] = new \Symfony\Bundle\SecurityBundle\Security\FirewallContext(array(0 => new \Symfony\Component\Security\Http\Firewall\ChannelListener($k, new \Symfony\Component\Security\Http\EntryPoint\RetryAuthenticationEntryPoint(80, 443), $a), 1 => new \Symfony\Component\Security\Http\Firewall\ContextListener($b, array(0 => $this->get('fos_user.user_provider.username')), 'main', $a, $c), 2 => $m, 3 => new \Symfony\Component\Security\Http\Firewall\UsernamePasswordFormAuthenticationListener($b, $f, $this->get('security.authentication.session_strategy'), $l, 'main', $n, new \Symfony\Component\Security\Http\Authentication\DefaultAuthenticationFailureHandler($e, $l, array('login_path' => '/login', 'failure_path' => NULL, 'failure_forward' => false, 'failure_path_parameter' => '_failure_path'), $a), array('check_path' => '/login_check', 'use_forward' => false, 'require_previous_session' => true, 'username_parameter' => '_username', 'password_parameter' => '_password', 'csrf_parameter' => '_csrf_token', 'intention' => 'authenticate', 'post_only' => true), $a, $c, $this->get('form.csrf_provider')), 4 => new \Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener($b, '52fbe9cdbf2bf', $a), 5 => new \Symfony\Component\Security\Http\Firewall\AccessListener($b, $this->get('security.access.decision_manager'), $k, $f)), new \Symfony\Component\Security\Http\Firewall\ExceptionListener($b, $this->get('security.authentication.trust_resolver'), $l, 'main', new \Symfony\Component\Security\Http\EntryPoint\FormAuthenticationEntryPoint($e, $l, '/login', false), NULL, NULL, $a));
     }
 
     /**
@@ -3597,7 +3821,7 @@ class appDevDebugProjectContainer extends Container
      */
     protected function getSecurity_Authentication_ManagerService()
     {
-        $this->services['security.authentication.manager'] = $instance = new \Symfony\Component\Security\Core\Authentication\AuthenticationProviderManager(array(0 => new \Symfony\Component\Security\Core\Authentication\Provider\DaoAuthenticationProvider($this->get('fos_user.user_provider.username'), $this->get('security.user_checker'), 'main', $this->get('security.encoder_factory'), true), 1 => new \Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider('52fb3ed7487d2')), true);
+        $this->services['security.authentication.manager'] = $instance = new \Symfony\Component\Security\Core\Authentication\AuthenticationProviderManager(array(0 => new \Symfony\Component\Security\Core\Authentication\Provider\DaoAuthenticationProvider($this->get('fos_user.user_provider.username'), $this->get('security.user_checker'), 'main', $this->get('security.encoder_factory'), true), 1 => new \Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider('52fbe9cdbf2bf')), true);
 
         $instance->setEventDispatcher($this->get('event_dispatcher'));
 
@@ -3794,6 +4018,22 @@ class appDevDebugProjectContainer extends Container
             'mailer_password' => NULL,
             'locale' => 'fr',
             'secret' => 'ThisTokenIsNotSoSecretChangeIt',
+            'pes.commentaire_news_manager.class' => 'Pes\\FrontBundle\\Manager\\CommentaireNewsManager',
+            'pes.commentaire_video_manager.class' => 'Pes\\FrontBundle\\Manager\\CommentaireVideoManager',
+            'pes.competition_manager.class' => 'Pes\\FrontBundle\\Manager\\CompetitionManager',
+            'pes.courrier_manager.class' => 'Pes\\FrontBundle\\Manager\\CourrierManager',
+            'pes.equipe_manager.class' => 'Pes\\FrontBundle\\Manager\\EquipeManager',
+            'pes.hebergeur_stream_manager.class' => 'Pes\\FrontBundle\\Manager\\HebergeurStreamManager',
+            'pes.jeu_manager.class' => 'Pes\\FrontBundle\\Manager\\JeuManager',
+            'pes.joueur_manager.class' => 'Pes\\FrontBundle\\Manager\\JoueurManager',
+            'pes.news_manager.class' => 'Pes\\FrontBundle\\Manager\\NewsManager',
+            'pes.pays_manager.class' => 'Pes\\FrontBundle\\Manager\\PaysManager',
+            'pes.reclamation_manager.class' => 'Pes\\FrontBundle\\Manager\\ReclamationManager',
+            'pes.stream_manager.class' => 'Pes\\FrontBundle\\Manager\\StreamManager',
+            'pes.tournoi_manager.class' => 'Pes\\FrontBundle\\Manager\\TournoiManager',
+            'pes.type_competition_manager.class' => 'Pes\\FrontBundle\\Manager\\TypeCompetitionManager',
+            'pes.type_video_manager.class' => 'Pes\\FrontBundle\\Manager\\TypeVideoManager',
+            'pes.video_manager.class' => 'Pes\\FrontBundle\\Manager\\VideoManager',
             'controller_resolver.class' => 'Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerResolver',
             'controller_name_converter.class' => 'Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerNameParser',
             'response_listener.class' => 'Symfony\\Component\\HttpKernel\\EventListener\\ResponseListener',

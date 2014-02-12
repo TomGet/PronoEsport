@@ -12,12 +12,5 @@ use Doctrine\ORM\EntityRepository;
  */
 class CompetitionRepository extends EntityRepository
 {
-	// a modifier dans le futur
-	public function plannedCompetitions() {
-		return $this->createQueryBuilder('c')
-			->orderBy('c.date', 'ASC')
-			->setMaxResults(5)
-			->getQuery()
-			->getResult();
-	}
+
 }

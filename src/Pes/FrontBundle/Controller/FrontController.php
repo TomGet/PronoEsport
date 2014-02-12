@@ -9,16 +9,6 @@ class FrontController extends Controller
 {
 	public function indexAction($name)
 	{
-		//var_dump($this->container->get('security.context')->getToken()->getUser());
-
-
-		/*/ Création de l'entité
-		$pays = new Pays();
-		$pays->setNom('France');
-		$em = $this->getDoctrine()->getManager();
-		$em->persist($pays);
-		$em->flush();
-		*/
 		return $this->render('PesFrontBundle:Front:index.html.twig', array('name' => $name));
 	}
 
@@ -29,10 +19,7 @@ class FrontController extends Controller
 
 	public function lastNewsAction($nombre)
 	{
-		$repository = $this->getDoctrine()
-			->getManager()
-			->getRepository('PesFrontBundle:News');
-		$lesNews = $repository->lastNews();
+		$lesNews = $this->get('pes.news_manager')->getLastNews();
 		return $this->render('PesFrontBundle:Front:lastNews.html.twig', array('lesNews' => $lesNews));
 	}
 
@@ -54,12 +41,9 @@ class FrontController extends Controller
 		return $this->render('PesFrontBundle:Front:voirCompetition.html.twig', array('competition' => $competition));
 	}
 
-	public function PlannedCompetitionsAction($nombre)
+	public function plannedCompetitionsAction($nombre)
 	{
-		$repository = $this->getDoctrine()
-			->getManager()
-			->getRepository('PesFrontBundle:Competition');
-		$competitions = $repository->plannedCompetitions();
+		$competitions = $this->get('pes.competition_manager')->getPlannedCompetitions();
 		return $this->render('PesFrontBundle:Front:plannedCompetitions.html.twig', array('competitions' => $competitions));
 	}
 

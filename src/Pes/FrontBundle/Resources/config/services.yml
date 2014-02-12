@@ -1,7 +1,73 @@
 parameters:
-#    pes_front.example.class: Pes\FrontBundle\Example
+    pes.commentaire_news_manager.class: Pes\FrontBundle\Manager\CommentaireNewsManager
+    pes.commentaire_video_manager.class: Pes\FrontBundle\Manager\CommentaireVideoManager
+    pes.competition_manager.class: Pes\FrontBundle\Manager\CompetitionManager
+    pes.courrier_manager.class: Pes\FrontBundle\Manager\CourrierManager
+    pes.equipe_manager.class: Pes\FrontBundle\Manager\EquipeManager
+    pes.hebergeur_stream_manager.class: Pes\FrontBundle\Manager\HebergeurStreamManager
+    pes.jeu_manager.class: Pes\FrontBundle\Manager\JeuManager
+    pes.joueur_manager.class: Pes\FrontBundle\Manager\JoueurManager
+    pes.news_manager.class: Pes\FrontBundle\Manager\NewsManager
+    pes.pays_manager.class: Pes\FrontBundle\Manager\PaysManager
+    pes.reclamation_manager.class: Pes\FrontBundle\Manager\ReclamationManager
+    pes.stream_manager.class: Pes\FrontBundle\Manager\StreamManager
+    pes.tournoi_manager.class: Pes\FrontBundle\Manager\TournoiManager
+    pes.type_competition_manager.class: Pes\FrontBundle\Manager\TypeCompetitionManager
+    pes.type_video_manager.class: Pes\FrontBundle\Manager\TypeVideoManager
+    pes.video_manager.class: Pes\FrontBundle\Manager\VideoManager
 
 services:
-#    pes_front.example:
-#        class: %pes_front.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]
+    pes.commentaire_news_manager:
+        class: %pes.commentaire_news_manager.class%
+        arguments: [@doctrine.orm.entity_manager]
+    pes.commentaire_video_manager:
+        class: %pes.commentaire_video_manager.class%
+        arguments: [@doctrine.orm.entity_manager]
+    pes.competition_manager:
+        class: %pes.competition_manager.class%
+        arguments: [@doctrine.orm.entity_manager]
+    pes.courrier_manager:
+        class: %pes.courrier_manager.class%
+        arguments: [@doctrine.orm.entity_manager]
+    pes.equipe_manager:
+        class: %pes.equipe_manager.class%
+        arguments: [@doctrine.orm.entity_manager]
+    pes.hebergeur_stream_manager:
+        class: %pes.hebergeur_stream_manager.class%
+        arguments: [@doctrine.orm.entity_manager]
+    pes.jeu_manager:
+        class: %pes.jeu_manager.class%
+        arguments: [@doctrine.orm.entity_manager]
+    pes.joueur_manager:
+        class: %pes.joueur_manager.class%
+        arguments: [@doctrine.orm.entity_manager]
+    pes.news_manager:
+        class: %pes.news_manager.class%
+        arguments: [@doctrine.orm.entity_manager]
+    pes.pays_manager:
+        class: %pes.pays_manager.class%
+        arguments: [@doctrine.orm.entity_manager]
+    pes.reclamation_manager:
+        class: %pes.reclamation_manager.class%
+        arguments: [@doctrine.orm.entity_manager]
+    pes.stream_manager:
+        class: %pes.stream_manager.class%
+        arguments: [@doctrine.orm.entity_manager]
+    pes.tournoi_manager:
+        class: %pes.tournoi_manager.class%
+        arguments: [@doctrine.orm.entity_manager]
+    pes.type_competition_manager:
+        class: %pes.type_competition_manager.class%
+        arguments: [@doctrine.orm.entity_manager]
+    pes.type_video_manager:
+        class: %pes.type_video_manager.class%
+        arguments: [@doctrine.orm.entity_manager]
+    pes.video_manager:
+        class: %pes.video_manager.class%
+        arguments: [@doctrine.orm.entity_manager]
+
+
+
+
+
+

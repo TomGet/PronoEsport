@@ -12,11 +12,5 @@ use Doctrine\ORM\EntityRepository;
  */
 class NewsRepository extends EntityRepository
 {
-	public function lastNews() {
-		return $this->createQueryBuilder('n')
-			->orderBy('n.date', 'DESC')
-			->setMaxResults(5)
-			->getQuery()
-			->getResult();
-	}
+
 }
